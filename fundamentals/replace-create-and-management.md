@@ -18,7 +18,7 @@ This feature will not work if you enable "**Show Header Forwarder**" in task lis
 ➡️ USE Regex\
 `/replace ACTION LABEL_regex Regex_syntax -> NEW_WORD`
 
-**Command Information**
+➡️ **Command Information**
 
 * **ACTION**  is **add or remove**
 * **LABEL** is the nickname you want to define for your **Replace**.
@@ -26,6 +26,37 @@ This feature will not work if you enable "**Show Header Forwarder**" in task lis
 * To create whitelist advance with regex please add **LABEL** suffix is **\_regex**
 * **Original\_WORD** is word you want replace. Check Tab **Example**
 * **NEW\_WORD** is  word will replace. Check Tab **Example**
+
+➡️ **Combine with ShortCode**\
+✅ **Original\_WORD** is word you want replace. You can use **ShortCode**:
+
+&#x20; ➡️ **\[\[FULL\_TEXT]]** if you want replace all text of message
+
+✅ **NEW\_WORD** is  word will replace. You can combine with **ShortCode**:
+
+&#x20; ➡️ **\[\[ORIGIN\_USERNAME]]** if you want to show the sender username
+
+&#x20; ➡️ **\[\[ORIGIN\_USERID]]** if you want to show the sender userid
+
+&#x20; ➡️ **\[\[ORIGIN\_TEXT]]** if you want to show original content.&#x20;
+
+&#x20; ➡️ **\[\[ORIGIN\_NAME]]** if you want to show the sender name or name original channel.&#x20;
+
+&#x20; ➡️ **\[\[ORIGIN\_POST\_ID]]** if you want show Post ID origin.&#x20;
+
+&#x20; ➡️ **\[\[ORIGIN\_CHAT\_ID]]** if you want show CHAT ID origin.
+
+&#x20; ➡️ **\[\[ORIGIN\_QUOTED\_TEXT]]** if you want to display the original post's QUOTED TEXT.
+
+&#x20; ➡️ **\[\[ORIGIN\_NAME\_URL]]** if you want to show the original link.
+
+&#x20; ➡️ **\[\[FROM\_USER]]** if you want to show the username of sender.
+
+&#x20; ➡️ **\[\[SOURCE\_NAME]]** if you want to show forward source name.
+
+&#x20; ➡️ **\[\[SENDER\_CHAT]]** if you want to show name display of sender.
+
+&#x20; ➡️ **\[\[FORWARD\_FROM\_CHAT]]** if you want to show message owner name
 {% endtab %}
 
 {% tab title="Syntax Example (Simple)" %}
@@ -132,6 +163,16 @@ Stop loss at 1982.45
 ⚠️Risk 1-2% per trade!
 ```
 {% endcode %}
+{% endtab %}
+
+{% tab title="Combine with ShortCode" %}
+Use the syntax as shown below when you want to replace words or full paragraphs.\
+**Hello. How are you?**\
+➡️ Change **all message** to **Hi**\
+**`/replace add re1`** **`[[FULL_TEXT]]  -> Hi`**
+
+➡️ Change **all message** to original content and Signature Source\
+**`/replace add re1`** **`[[FULL_TEXT]]  -> [[ORIGIN_TEXT]]`**` ``- by`` `**`[[SOURCE_NAME]]`**
 {% endtab %}
 {% endtabs %}
 
