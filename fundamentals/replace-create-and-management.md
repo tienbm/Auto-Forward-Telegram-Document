@@ -135,7 +135,7 @@ Stop loss at 1982.45
 {% endtab %}
 {% endtabs %}
 
-### ⛳️ Create New Replace Use ShortCode
+### &#x20;☯️ Create New Replace Use ShortCode
 
 <details>
 
