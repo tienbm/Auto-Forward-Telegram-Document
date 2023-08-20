@@ -8,7 +8,7 @@ You can set a list of words or regex patterns which tells the bot that if the me
 This feature will not work if you enable "**Show Header Forwarder**" in task list
 {% endhint %}
 
-### ⛳️ Create new Replace
+### ⛳️ Create New Replace
 
 {% tabs %}
 {% tab title="Command" %}
@@ -133,59 +133,62 @@ Stop loss at 1982.45
 ```
 {% endcode %}
 {% endtab %}
-
-{% tab title="Combine with ShortCode" %}
-Use the syntax as shown below when you want to replace words or full paragraphs.\
-**Hello. How are you?**\
-➡️ Change **Hello. How are you?** to **Hi**\
-**`/replace add re1`** **`[[FULL_TEXT]]  -> Hi`**
-
-➡️ Change **Hello. How are you?** to original content and Signature Source\
-**`/replace add re1`** **`[[FULL_TEXT]]  -> [[ORIGIN_TEXT]]`**` ``- by`` `**`[[SOURCE_NAME]]`**
-{% endtab %}
 {% endtabs %}
 
-### ⛳️ Create new Replace Use ShortCode
+### ⛳️ Create New Replace Use ShortCode
 
 <details>
 
 <summary>➡️ USE Combine with ShortCode</summary>
 
+➡️ Command Arguments\
+`/replace ACTION LABEL Original_WORD -> NEW_WORD`
+
 ✅ **Original\_WORD** is word you want replace. You can use **ShortCode**:
 
-&#x20;  **\[\[FULL\_TEXT]]** if you want replace all content in message
+&#x20;  **\[\[FULL\_TEXT]]** if you want take full content in message source
 
 ✅ **NEW\_WORD** is  word will replace. You can combine with **ShortCode**:
 
-&#x20;  **\[\[ORIGIN\_USERNAME]]** if you want to replace with more the sender username
+&#x20;  **\[\[ORIGIN\_USERNAME]]** if you want to replace with the sender username
 
-&#x20;  **\[\[ORIGIN\_USERID]]** if you want to replace with more the sender userid
+&#x20;  **\[\[ORIGIN\_USERID]]** if you want to replace with the sender userid
 
-&#x20;  **\[\[ORIGIN\_TEXT]]** if you want to replace with more original content.&#x20;
+&#x20;  **\[\[ORIGIN\_TEXT]]** if you want to replace with original content.&#x20;
 
-&#x20;  **\[\[ORIGIN\_NAME]]** if you want to replace with more the sender name or name original channel.&#x20;
+&#x20;  **\[\[ORIGIN\_NAME]]** if you want to replace with the sender name or name original channel.&#x20;
 
-&#x20;  **\[\[ORIGIN\_POST\_ID]]** if you want replace with more Post ID origin.&#x20;
+&#x20;  **\[\[ORIGIN\_POST\_ID]]** if you want replace with Post ID origin.&#x20;
 
-&#x20;  **\[\[ORIGIN\_CHAT\_ID]]** if you want replace with more CHAT ID origin.
+&#x20;  **\[\[ORIGIN\_CHAT\_ID]]** if you want replace with CHAT ID origin.
 
-&#x20;  **\[\[ORIGIN\_QUOTED\_TEXT]]** if you want to replace with more the original post's QUOTED TEXT.
+&#x20;  **\[\[ORIGIN\_QUOTED\_TEXT]]** if you want to replace with the original post's QUOTED TEXT.
 
-&#x20;  **\[\[ORIGIN\_NAME\_URL]]** if you want to replace with more the original link.
+&#x20;  **\[\[ORIGIN\_NAME\_URL]]** if you want to replace with the original link.
 
-&#x20;  **\[\[FROM\_USER]]** if you want to replace with more the username of sender.
+&#x20;  **\[\[FROM\_USER]]** if you want to replace with the username of sender.
 
-&#x20;  **\[\[SOURCE\_NAME]]** if you want to replace with more forward source name.
+&#x20;  **\[\[SOURCE\_NAME]]** if you want to replace with forward source name.
 
-&#x20;  **\[\[SENDER\_CHAT]]** if you want to replace with more name display of sender.
+&#x20;  **\[\[SENDER\_CHAT]]** if you want to replace with name display of sender.
 
-&#x20;  **\[\[FORWARD\_FROM\_CHAT]]** if you want to replace with more message owner name
+&#x20;  **\[\[FORWARD\_FROM\_CHAT]]** if you want to replace with message owner name
+
+❇️ **Example:**
+
+Use the syntax as shown below when you want to replace words or full paragraphs.\
+**Hello. How are you?**\
+➡️ Change full content **Hello. How are you?** to **Hi**\
+**`/replace add re1[[FULL_TEXT]]  -> Hi`**
+
+➡️ Change **Hello. How are you?** to original content + Signature Source\
+**`/replace add re1`** **`[[FULL_TEXT]]  -> [[ORIGIN_TEXT]]`**`- by`` `**`[[SOURCE_NAME]]`**
 
 </details>
 
+{% embed url="https://www.youtube.com/watch?v=cxM_oNvPyPA" %}
 
-
-✅ Apply/Disable Replace For a Task
+### ✅ Apply/Disable Replace For a Task
 
 **1.**  From **Auto Forward Messages BOT** [Choose Task ](how-to-settings-for-task/)you want Apply
 
