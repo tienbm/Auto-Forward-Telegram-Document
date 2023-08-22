@@ -81,7 +81,7 @@ Use the syntax as shown below when you want to achive result that is not possibl
 ➡️ Match every **url** or **@mention** and change it to @Auto\_Forward\_Messages\_Bot \
 /replace add re1\_regex (@|www|https?)\S+ -> @Auto\_Forward\_Messages\_Bot
 
-➡️ Refactor content use regex. Remove _"**✉️TPA trading report:", "TPA: Entry", "The monitoring will be continued."**_  in content below 👇
+➡️ Exam1: Refactor content use regex. Remove _"**✉️TPA trading report:", "TPA: Entry", "The monitoring will be continued."**_  in content below 👇
 
 ```
 ✉️TPA trading report:
@@ -101,7 +101,7 @@ BUY  UUDCHF M30 at 2023.06.16 15:30
 ```
 {% endcode %}
 
-➡️ Refactor content use regex. Change all _"_**Take profit (1|2|3)**👉**at**_**"**_  to **TP** in content below 👇
+➡️ Exam2: Refactor content use regex. Change all _"_**Take profit (1|2|3)**👉**at**_**"**_  to **TP** in content below 👇
 
 ```
 🚨Signal Alert🚨 
@@ -132,8 +132,43 @@ Stop loss at 1982.45
 ⚠️Risk 1-2% per trade!
 ```
 {% endcode %}
+
+**➡️ Exam 3:  Refactor content use regex. Change all to new format in content below 👇**
+
+{% code title="Content Original" overflow="wrap" %}
+```
+🔥 #RDNT/USDT (Long📈, x20) 🔥
+
+Entry - 0.2483
+SL - 25-30%
+
+Take-Profit:
+🥇 0.2534 (40% of profit)
+🥈 0.256 (60% of profit)
+🥉 0.2586 (80% of profit)
+🚀 0.2614 (100% of profit)
+```
+{% endcode %}
+
+{% code title="Use syntax command" overflow="wrap" %}
+```
+/replace add re_signal_regex (?:.*\#)(.*)\s+(?:.*Long.*\,\s+(\w+)(?:.*))\n+(?:Entry.*)\s+(\d+.?\d+)\s+(?:SL.*\-)(?:.*)\s+(\d+\-\d+)(?:\%)\n+(?:.*:)\n(?:.*)\s+(\d+.?\d+)(?:.*)\n(?:.*)\s+(\d+.?\d+)(?:.*)\n(?:.*)\s+(\d+.?\d+)(?:.*)\n(?:.*)\s+(\d+.?\d+)(?:.*) -> \1 Binance futures\nLEVERAGE CROSS \2\nBUY   \3\nSELL: \5 \6 \7 \8\nSTOP: \4%
+```
+{% endcode %}
+
+{% code title="Result Output" %}
+```
+RDNTUSDT Binance futures
+LEVERAGE CROSS 20X
+BUY   0.2483
+SELL: 0.2534 0.256 0.2586 0.2614
+STOP: 25%
+```
+{% endcode %}
 {% endtab %}
 {% endtabs %}
+
+
 
 ### &#x20;☯️ Create New Replace Use ShortCode
 
