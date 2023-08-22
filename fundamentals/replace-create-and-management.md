@@ -260,3 +260,7 @@ Use command **/replace** after select **CLEAR ALL**
 <figure><img src="../.gitbook/assets/removereplace.gif" alt=""><figcaption><p>Remove all replace</p></figcaption></figure>
 
 {% embed url="https://www.youtube.com/watch?v=5w_BiJU4zAc" %}
+
+## Regex Magic: Beyond Your Imagination | Replace Advanced Feature
+
+{% embed url="https://www.youtube.com/watch?v=bshGJiKwocg" %}
