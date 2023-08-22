@@ -165,6 +165,8 @@ SELL: 0.2534 0.256 0.2586 0.2614
 STOP: 25%
 ```
 {% endcode %}
+
+Video: [Regex Magic: Beyond Your Imagination | Replace Advanced Feature](replace-create-and-management.md#regex-magic-beyond-your-imagination-or-replace-advanced-feature)
 {% endtab %}
 {% endtabs %}
 
