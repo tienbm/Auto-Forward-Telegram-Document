@@ -43,6 +43,7 @@
 * [🦸 Upgrade package](upgrade-package.md)
 * [🦸 Upgrade From GooglePlay or AppStore](upgrade-from-googleplay-or-appstore.md)
 * [📱 How to get UserID and Token for Login App Mobile](how-to-get-userid-and-token-for-login-app-mobile.md)
+* [♦ How to remove All your personal data?](how-to-remove-all-your-personal-data.md)
 
 ## Extras
 
