@@ -7,7 +7,7 @@ Typing Command\
 {% endtab %}
 {% endtabs %}
 
-![](<.gitbook/assets/Canvas – 1.png>)
+<figure><img src=".gitbook/assets/overview_update.png" alt=""><figcaption></figcaption></figure>
 
 With @Auto\_Forward\_Messages\_Bot you can use it for **free** or **pay** if you want.
 
