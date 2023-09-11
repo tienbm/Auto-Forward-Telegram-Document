@@ -104,7 +104,7 @@ This feature is help **Forward Channel/Group/User to one or more Topics in Group
 **1.** After typing the command, select **Manage Forwarding Tasks** or **Show ALL** to show all your list Task.\
 **2.** Next click a **Task**  you want settings.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Detail Task</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Detail Task</p></figcaption></figure>
 
 3. Next Select **Target Topic** to **show list topic in group**
 4. **At here click to topic you want activate**
@@ -141,7 +141,7 @@ This feature is help **Forward Channel/Group/User to one or more Topics in Group
 **1.** After typing the command, select **Manage Forwarding Tasks** or **Show ALL** to show all your list Task.\
 **2.** Next click a **Task**  you want settings.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Detail Task</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Detail Task</p></figcaption></figure>
 
 3. Next Select **Source Topic** to **show list topic in group**
 4. **At here click to topic you want activate**
