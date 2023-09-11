@@ -18,7 +18,7 @@ To reach this first you will need to type **/settings** on **Auto Forward Telegr
 * **Boost Performance:** This option increases Auto Forward Performance
   * The reason this option is OFF (🚫) by default is because using it will cause BOT to forward messages out of order.
   * If you do not care about message order, turning this setting ON (✅) will increase performance by a big margin.
-* **Alert: Chat Access Error:** This is the option to ON or OFF error messages when there are problems related to access during message forwarding.&#x20;
-  * **ON** (✅) When there is an access problem during message forwarding, **it will SEND an error message in BOT and Stop The Failed Forward Task.**
-  * **OFF** (🚫) When there is an access problem during message forwarding, **it will NOT SEND an error message in BOT and Will Continue Task Forward.**
+* **Alert: Chat Access Error:** This is the option to ON or OFF error messages when there are problems related to access during message forwarding, such as not being able to post to any target or not access target.
+  * **ON** (✅) When there is an access problem during message forwarding, **it will SEND an error message to BOT and Stop That Forward Task.**
+  * **OFF** (🚫) When there is an access problem during message forwarding, **it will IGNORE the error message Will Continue Task Forward.**
 
