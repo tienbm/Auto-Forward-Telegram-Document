@@ -71,5 +71,6 @@
   * [Can I add more features?](extras/faq/can-i-add-more-features.md)
   * [I found a bug, how can I solve it?](extras/faq/i-found-a-bug-how-can-i-solve-it.md)
   * [Why do I see an "iPhone 8 Plus" device](extras/faq/why-do-i-see-an-iphone-8-plus-device.md)
+  * [What should you do if you encounter problems with Auto Forward Messages?](extras/faq/what-should-you-do-if-you-encounter-problems-with-auto-forward-messages.md)
 * [📔 Change log](extras/change-log.md)
 * [📨 Contact US](extras/contact-us.md)
