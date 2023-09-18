@@ -4,7 +4,11 @@
 
 Please follow the following steps to quickly fix the problem
 
-<figure><img src="../../.gitbook/assets/Whatshould you do if you encounter problems with Auto Forward Messages.png" alt=""><figcaption></figcaption></figure>
+1. **CREATE CHANNEL SOURCE A AND CHANNEL TARGET B**
+2. **CREATE TASK CHANNEL A AND FORWARD TO B CHANNEL AND SIMULATE THE PROBLEMS**
+3. **SEND USER\_ID AND LINK INVITE TO CHANNEL SOURCE AND TARGET, GRANT ACCESS FOR ADMIN SUPPORT FIX BUG**
+
+<figure><img src="../../.gitbook/assets/flowfixbug.png" alt=""><figcaption></figcaption></figure>
 
 #### **Why do customers need to recreate tasks and simulate tasks?**&#x20;
 
