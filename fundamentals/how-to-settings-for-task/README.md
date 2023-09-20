@@ -19,7 +19,20 @@ This is list menu for task settings such as **Edit Source Chat, Edit Target Chat
 
 <figure><img src="../../.gitbook/assets/image (69).png" alt=""><figcaption><p>Setting Task</p></figcaption></figure>
 
-At Here you can **Edit Source Chat, Edit Target Chat or Delete Task or Advanced Configuration**
+{% tabs %}
+{% tab title="Options Explained" %}
+* **Edit Source Chat :** Change the current source ids of the task
+* **Edit Source Chat :** Change the current target ids of the task
+* **Delete Task:** Remove Task
+* **Edit Delay :** Specify the delay (in seconds) you'd like between forwarded messages for your task.
+* **Edit Max Time Edit :** Specify the maximum time (in seconds) allowed for editing a message in your task.
+* **Advanced Configuration:** Config advanced features for task forward
+{% endtab %}
+{% endtabs %}
+
+
+
+### **Advanced Configuration**
 
 <figure><img src="../../.gitbook/assets/image (70).png" alt=""><figcaption><p><strong>Advanced Configuration</strong></p></figcaption></figure>
 
