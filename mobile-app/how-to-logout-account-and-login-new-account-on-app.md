@@ -12,7 +12,8 @@
 
 
     ![](<../.gitbook/assets/Screenshot\_20230925-230430 (2).png>)![](../.gitbook/assets/Screenshot\_20230925-230438.png)
-3. SignIn a new account
 
-Video
+### **Example**
+
+![](../.gitbook/assets/ezgif-2-4ee45f3a28.gif)
 

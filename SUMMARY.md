@@ -44,6 +44,11 @@
 * [🦸 Upgrade From GooglePlay or AppStore](upgrade-from-googleplay-or-appstore.md)
 * [♦ How to remove all your personal data?](how-to-remove-all-your-personal-data.md)
 
+## Mobile App
+
+* [📱 How to get UserID and Token for Login App Mobile](how-to-get-userid-and-token-for-login-app-mobile.md)
+* [🔓 How to logout account and login new account on app?](mobile-app/how-to-logout-account-and-login-new-account-on-app.md)
+
 ## Extras
 
 * [🔮 Content Analysis support for feature Replace](extras/content-analysis-support-for-feature-replace.md)
@@ -73,8 +78,3 @@
   * [What should you do if you encounter problems with Auto Forward Messages?](extras/faq/what-should-you-do-if-you-encounter-problems-with-auto-forward-messages.md)
 * [📔 Change log](extras/change-log.md)
 * [📨 Contact US](extras/contact-us.md)
-
-## Mobile App
-
-* [📱 How to get UserID and Token for Login App Mobile](mobile-app/how-to-get-userid-and-token-for-login-app-mobile.md)
-* [🔓 How to logout account and login new account on app?](mobile-app/how-to-logout-account-and-login-new-account-on-app.md)
