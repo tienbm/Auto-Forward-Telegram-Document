@@ -4,7 +4,7 @@
 
 1. From Telegram App .Select Menu and click Add Account
 
-<figure><img src="../../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (78).png" alt=""><figcaption></figcaption></figure>
 
 2. Scan From Mobile Telegram or Using your phone number
 
