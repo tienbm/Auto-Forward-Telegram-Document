@@ -5,7 +5,7 @@ You can set a list of words or regex patterns which tells the bot that if the me
 {% endhint %}
 
 {% hint style="danger" %}
-This feature will not work if you enable "**Show Header Forwarder**" in task list
+<mark style="color:red;">This feature will not work if you enable "</mark><mark style="color:red;">**Show Header Forwarder**</mark><mark style="color:red;">" in task list</mark>
 {% endhint %}
 
 ### ⛳️ Create New Replace

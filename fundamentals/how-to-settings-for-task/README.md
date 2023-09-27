@@ -40,7 +40,7 @@ This is list menu for task settings such as **Edit Source Chat, Edit Target Chat
 {% tab title="Options Explained" %}
 * **Show Header Forwarder :** check ✅ if you want all your messages will be prefixed with "Forwarded from ...".&#x20;
 
-&#x20;      ️➡️ _**Note**: if you **turn on the feature**_** Show Header Forwarder** _then features **Reply**, **Edit** will not work._
+&#x20;      ️➡️ _<mark style="color:red;">**Note: if you turn on the feature**</mark>_<mark style="color:red;">** **</mark><mark style="color:red;">**Show Header Forwarder**</mark><mark style="color:red;">** **</mark>_<mark style="color:red;">**then features Reply, Edit, Replace,**</mark>_<mark style="color:red;">** **</mark><mark style="color:red;">**translate**</mark><mark style="color:red;">** **</mark>_<mark style="color:red;">**will not work.**</mark>_
 
 * **Duplicate Filters:** check ✅ if you want to **block duplicate messages** from forwarding.
 * **Replace:** click ➡️ if you want to replace word feature to work on this task

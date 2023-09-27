@@ -4,6 +4,10 @@
 This feature is used to set up the translation from source to target for task forward.
 {% endhint %}
 
+{% hint style="danger" %}
+&#x20;_<mark style="color:red;">**if you turn on the feature**</mark>_<mark style="color:red;">** **</mark><mark style="color:red;">**Show Header Forwarder**</mark><mark style="color:red;">** **</mark>_<mark style="color:red;">**then features Reply, Edit, Replace,**</mark>_<mark style="color:red;">** **</mark><mark style="color:red;">**translate**</mark><mark style="color:red;">** **</mark>_<mark style="color:red;">**will not work.**</mark>_
+{% endhint %}
+
 {% tabs %}
 {% tab title="Instructions" %}
 To reach this first you will need to type **/settings** on **Auto Forward Telegram BOT.** Now click on **work1** so you can access the setup settings. \

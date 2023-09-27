@@ -8,6 +8,12 @@
 
 **4.**  Click a your replace you want to **Activate or Deactivate** for Task
 
+
+
+{% hint style="danger" %}
+&#x20;_<mark style="color:red;">**if you turn on the feature**</mark>_<mark style="color:red;">** **</mark><mark style="color:red;">**Show Header Forwarder**</mark><mark style="color:red;">** **</mark>_<mark style="color:red;">**then features Reply, Edit, Replace,**</mark>_<mark style="color:red;">** **</mark><mark style="color:red;">**translate**</mark><mark style="color:red;">** **</mark>_<mark style="color:red;">**will not work.**</mark>_
+{% endhint %}
+
 {% hint style="info" %}
 Describe Status
 
