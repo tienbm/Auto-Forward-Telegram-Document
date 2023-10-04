@@ -55,6 +55,7 @@
 * [⏳ FAQ](extras/faq/README.md)
   * [Auto Forward Messages has a free version ?](extras/faq/auto-forward-messages-has-a-free-version.md)
   * [How to connect multiple account telegram to Auto Forward Messages BOT?](extras/faq/how-to-connect-multiple-account-telegram-to-auto-forward-messages-bot.md)
+  * [How to NOT get banned from Telegram?](extras/faq/how-to-not-get-banned-from-telegram.md)
   * [Trick to Continuously Forward Multiple Messages on Telegram](extras/faq/trick-to-continuously-forward-multiple-messages-on-telegram.md)
   * [Why Telegram Account Limited Error?](extras/faq/why-telegram-account-limited-error.md)
   * [What if you do not want to login?](extras/faq/what-if-you-do-not-want-to-login.md)
