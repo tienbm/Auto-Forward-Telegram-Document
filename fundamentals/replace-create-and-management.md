@@ -174,10 +174,10 @@ Video: [Regex Magic: Beyond Your Imagination | Replace Advanced Feature](replace
 
 ### &#x20;☯️ Create New Replace Use ShortCode
 
-<details>
 
-<summary>➡️ USE Combine with ShortCode</summary>
 
+{% tabs %}
+{% tab title="➡️ USE Combine with ShortCode" %}
 ➡️ Command Arguments\
 `/replace ACTION LABEL Original_WORD -> NEW_WORD`
 
@@ -220,8 +220,8 @@ Use the syntax as shown below when you want to replace words or full paragraphs.
 
 ➡️ Change **Hello. How are you?** to original content + Signature Source\
 **`/replace add re1`** **`[[FULL_TEXT]]  -> [[ORIGIN_TEXT]]`**`- by`` `**`[[SOURCE_NAME]]`**
-
-</details>
+{% endtab %}
+{% endtabs %}
 
 {% embed url="https://www.youtube.com/watch?v=cxM_oNvPyPA" %}
 
