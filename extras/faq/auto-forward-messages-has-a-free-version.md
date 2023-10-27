@@ -3,7 +3,7 @@
 
 
 {% hint style="warning" %}
-Once your AutoForward Telegram trial period expires, the free package will become available as an option for you to choose.
+Once your Auto Forward Telegram period expires, the free package will become available as an option for you to choose.
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/image (80).png" alt=""><figcaption><p>Example about show option Free Plan</p></figcaption></figure>
