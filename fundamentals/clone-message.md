@@ -29,6 +29,8 @@ This command is used for cloning (mirror) chats/channels or users messages from 
   * [**Whitelist**](clone-message.md#blacklist-and-whitelist)
   * [**Blacklist**](clone-message.md#blacklist-and-whitelist)
   * [**Replace**](clone-message.md#replace-clone)&#x20;
+  * [**Add Header and Footer to post Clone**](clone-message.md#add-header-and-footer-when-clone)
+  * [**Show header forward**](clone-message.md#show-header-forward-when-clone)
 
 ## &#x20;❇️ How To Run Command Clone?
 
