@@ -45,6 +45,8 @@ Enter content you want show with some options
 &#x20; ➡️ **\[\[SENDER\_CHAT]]** if you want to show name display of sender.
 
 &#x20; ➡️ **\[\[FORWARD\_FROM\_CHAT]]** if you want to show message owner name
+
+&#x20; ➡️ **\[\[ORIGIN\_POST\_DATE]]** if you want to show post date created
 {% endtab %}
 {% endtabs %}
 

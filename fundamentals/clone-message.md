@@ -256,3 +256,69 @@ If you do not have a **replace**, you can create it by following these [instruct
 <figure><img src="../.gitbook/assets/ezgif-5-cb2550752d (1).gif" alt=""><figcaption><p><strong>Activate or Deactivate</strong> for Clone</p></figcaption></figure>
 
 {% embed url="https://youtu.be/3iDXBZG0DKs" %}
+
+## Add Header and Footer when Clone
+
+{% hint style="info" %}
+You can add a header or footer for each post when clone to channels target
+{% endhint %}
+
+{% tabs %}
+{% tab title="Instructions" %}
+To reach this first you will need to type **/clone** on **Auto Forward Telegram BOT.** Now click on  **Add Header or Add Footer** ➡️&#x20;
+
+<figure><img src="../.gitbook/assets/image (83).png" alt=""><figcaption></figcaption></figure>
+
+&#x20; ➡️ **Enter text content you want show .**
+
+#### Or it can be a display reference to some value as follows
+
+📖 Use Short code to refer:
+
+&#x20; ➡️  **Enter EMPTY if you don't want to show the header.**&#x20;
+
+&#x20; ➡️ **\n** if you want break line.
+
+&#x20; ➡️ **\t** if you want spaces.
+
+&#x20; ➡️ **\[\[ORIGIN\_USERNAME]]** if you want to show the sender username
+
+&#x20; ➡️ **\[\[ORIGIN\_USERID]]** if you want to show the sender userid
+
+&#x20; ➡️ **\[\[ORIGIN\_TEXT]]** if you want to show original content.&#x20;
+
+&#x20; ➡️ **\[\[ORIGIN\_NAME]]** if you want to show the sender name or name original channel.&#x20;
+
+&#x20; ➡️ **\[\[ORIGIN\_POST\_ID]]** if you want show Post ID origin.&#x20;
+
+&#x20; ➡️ **\[\[ORIGIN\_CHAT\_ID]]** if you want show CHAT ID origin.
+
+&#x20; ➡️ **\[\[ORIGIN\_QUOTED\_TEXT]]** if you want to display the original post's QUOTED TEXT.
+
+&#x20; ➡️ **\[\[ORIGIN\_NAME\_URL]]** if you want to show the original link.
+
+&#x20; ➡️ **\[\[FROM\_USER]]** if you want to show the username of sender.
+
+&#x20; ➡️ **\[\[SOURCE\_NAME]]** if you want to show forward source name.
+
+&#x20; ➡️ **\[\[SENDER\_CHAT]]** if you want to show name display of sender.
+
+&#x20; ➡️ **\[\[FORWARD\_FROM\_CHAT]]** if you want to show message owner name
+
+&#x20; ➡️ **\[\[ORIGIN\_POST\_DATE]]** if you want to show post date created
+{% endtab %}
+{% endtabs %}
+
+## Show header forward when clone
+
+{% hint style="info" %}
+**Show Header Forwarder :** check ✅ if you want all clone messages will be prefixed with "Forwarded from ...".&#x20;
+{% endhint %}
+
+{% tabs %}
+{% tab title="Instructions" %}
+<figure><img src="../.gitbook/assets/image (84).png" alt=""><figcaption></figcaption></figure>
+
+To reach this first you will need to type **/clone** on **Auto Forward Telegram BOT.** Now click on  **Show Header Forwarder** ➡️&#x20;
+{% endtab %}
+{% endtabs %}
