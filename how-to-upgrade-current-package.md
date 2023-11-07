@@ -29,11 +29,11 @@ Before upgrading your package, make sure you have:
 
 1. Select the upgrade package you desire.
 2. Follow the bot's instructions to make a direct payment to the specified payment method.
-3. **Send the difference payment amount to complete the upgrade.** _<mark style="color:orange;">For example: The current package is Gold 4.99$ and you want to upgrade to diamond for 7.99$. Please deposit an additional 3$ for the upgrade</mark>_
+3. **Send the difference payment amount to complete the upgrade.** _<mark style="color:orange;">For example: The current package is Gold 4.99$ and you want to upgrade to Diamond for 7.99$. Please deposit an additional 3$ for the upgrade</mark>_
 
 #### Step 4: Confirmation
 
-1. Send confirm the payment and update your package tới [Admin](https://t.me/redf0x1)
+1. Send confirm the payment and update your package to [Admin](https://t.me/redf0x1)
 2. **The number of days remaining from your previous package will be preserved in the upgraded package.**
 
 ### Option 2: Mobile App Payment
@@ -58,7 +58,9 @@ Before upgrading your package, make sure you have:
 #### Step 3: Instant Upgrade
 
 1. Upon selecting the package, the new features will be upgraded immediately.
-2. The cost of the new package will be charged, and the remaining value of your previous package will be adjusted proportionally and added to the new package.
+2.  The cost of the new package will be charged, and the remaining value of your previous package will be adjusted accordingly and additional days added to the new package.
+
+    _<mark style="color:orange;">For example: The current package is</mark> <mark style="color:orange;"></mark><mark style="color:orange;">**Gold**</mark> <mark style="color:orange;"></mark><mark style="color:orange;">4.99$ and you want to upgrade to Diamond for 7.99$.</mark> <mark style="color:orange;"></mark><mark style="color:orange;">**Gold**</mark>_ <mark style="color:orange;">subscription ends immediately.</mark> <mark style="color:orange;"></mark>_<mark style="color:orange;">**Diamond**</mark>_ <mark style="color:orange;"></mark><mark style="color:orange;">subscription begins today and he is charged $7.99. Because you paid for a full month for</mark> <mark style="color:orange;"></mark><mark style="color:orange;">**Gold**</mark> <mark style="color:orange;"></mark><mark style="color:orange;">but used only half of it, half of a month's subscription ($2.49) will be adjusted accordingly and additional days added to the new package.</mark>
 
 ### Conclusion
 
