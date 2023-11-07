@@ -29,7 +29,7 @@ Before upgrading your package, make sure you have:
 
 1. Select the upgrade package you desire.
 2. Follow the bot's instructions to make a direct payment to the specified payment method.
-3. **Send the difference payment amount to complete the upgrade.** [_For example: The current package is Gold 4.99$ and you want to upgrade to diamond for 7.99$. Please deposit an additional 3$ for the upgrade_](#user-content-fn-1)[^1]
+3. **Send the difference payment amount to complete the upgrade.** _<mark style="color:orange;">For example: The current package is Gold 4.99$ and you want to upgrade to diamond for 7.99$. Please deposit an additional 3$ for the upgrade</mark>_
 
 #### Step 4: Confirmation
 
@@ -65,5 +65,3 @@ Before upgrading your package, make sure you have:
 You have successfully learned how to upgrade your AutoForward bot package on Telegram using both direct payment and mobile app payment methods. Enjoy the enhanced features and capabilities of your upgraded package.
 
 Please note that the availability of specific packages and payment methods may vary. Be sure to follow the instructions provided by the AutoForward bot and your chosen mobile payment app for a smooth package upgrade process.
-
-[^1]: 
