@@ -22,7 +22,7 @@
 Optional: can skip
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/create.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/create (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Label(\*)**: is the nickname you want to define for your Replace. if use regex please select Basic -> Regex
 * **Full Content Original(Optional)**: Is your content before replacing. You may skip it.
