@@ -66,7 +66,7 @@ Sometimes I lay on the sun
 {% endcode %}
 {% endtab %}
 
-{% tab title="Syntax Example (Advanced)" %}
+{% tab title="Syntax Example use Regex(Advanced)" %}
 {% hint style="info" %}
 Use the syntax as shown below when you want to achive result that is not possible with the simple syntax. This syntax uses regex to replace words and keywords and you can do everything you want with the message if you know regex.
 {% endhint %}
@@ -170,11 +170,7 @@ Video: [Regex Magic: Beyond Your Imagination | Replace Advanced Feature](replace
 {% endtab %}
 {% endtabs %}
 
-
-
 ### &#x20;☯️ Create New Replace Use ShortCode
-
-
 
 {% tabs %}
 {% tab title="➡️ USE Combine with ShortCode" %}

@@ -10,7 +10,7 @@ To reach this first you will need to type **/settings** on **Auto Forward Telegr
 {% endtab %}
 {% endtabs %}
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>/settings</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>/settings</p></figcaption></figure>
 
 * **Click Start BOT:** All your forwarding tasks will be start and restart all
 * **Click Stop BOT:** All your forwarding tasks will be stopped all

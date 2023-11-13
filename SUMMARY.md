@@ -50,6 +50,7 @@
 
 * [📱 How to get UserID and Token for Login App Mobile](how-to-get-userid-and-token-for-login-app-mobile.md)
 * [🔓 How to logout account and login new account on app?](mobile-app/how-to-logout-account-and-login-new-account-on-app.md)
+* [🔄 \[Mobile App\] Replace: Create And Management](mobile-app/mobile-app-replace-create-and-management.md)
 
 ## Extras
 

@@ -65,21 +65,42 @@ Use the syntax as shown below when you want to achive result that is not possibl
 
 
 ➡️ Block messages only if it has the any **@mention** word on it.\
-`/blacklist add white1_regex @\S+`
+`/blacklist add black1_regex @\S+`
 
 \
 ➡️ Block messages only if it has any "telegram links"\
-`/blacklist add white2_regex (telegram.me|t.me)/\w+`\
+`/blacklist add black2_regex (telegram.me|t.me)/\w+`\
 
 
 ➡️ Block messages only if it has the word **black** or **white**
 
-`/blacklist add white3_regex (black|white)`
+`/blacklist add black3_regex (black|white)`
 
-\
+* **black and white :** The words `black` and `white` are two words you want block if have one or both
+* In case you want to block more, you can add more **|red|blue** in regex
+
 ➡️ Block messages only if it has the word **es** fully ( refer to **Important Information** )
 
-`/blacklist add white3_regex \bes\b`
+`/blacklist add black4_regex \bes\b`
+
+➡️ Block messages only if it has the word **word1 and word2** fully (refer to **Important Information**)\
+`/blacklist add black5_regex ^(?=.\bwork1\`_`b)(?=.`_`\bwork2\b).*$`&#x20;
+
+* **work1 and work2 :** The words work1 and work2 are two words you want to block if have both in the content
+* In case you want to match more, you can add more _**(?=.**_**\bwork3\b)**_**(?=.**_**\bwork4\b)** in regex
+
+{% code title="Example" overflow="wrap" %}
+```
+* When add blacklist is ^(?=.\bwork1\b)(?=.\bwork2\b).*$ it will only block messages have contain work1 and work2 like:
+  "I have work1 to do and work2 as well."
+  "work1 and work2 are both important."
+  "work2 is harder than work1."
+* Will continue forward if not have both work1 and work2 or only have work1 or work2 like:
+  "Only work1 is left."
+  "work2 is complete"
+  "Nothing to do here."
+```
+{% endcode %}
 {% endtab %}
 {% endtabs %}
 

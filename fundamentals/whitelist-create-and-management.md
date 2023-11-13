@@ -58,8 +58,6 @@ Use the syntax as shown below when you want to achive result that is not possibl
 **We do not support usage of regex, you are on your own if you decide to use regex. Only use it if you know what you are doing.**
 {% endhint %}
 
-
-
 ➡️ Process messages only if it has the any **@mention** word on it.\
 `/whitelist add white1_regex @\S+`
 
@@ -71,11 +69,34 @@ Use the syntax as shown below when you want to achive result that is not possibl
 ➡️ Process messages only if it has the word **black** or **white**\
 `/whitelist add white3_regex (black|white)`
 
-\
+* **black and white :** The words `black` and `white` are two words you want forward if have one or both
+* In case you want to match more, you can add more **|red|blue** in regex
+
 ➡️ Process messages only if it has the word **es** fully (refer to **Important Information**)\
 `/whitelist add white3_regex \bes\b`
+
+➡️ Process messages only if it has the word **word1 and word2** fully (refer to **Important Information**)\
+`/whitelist add white3_regex ^(?=.\bwork1\`_`b)(?=.`_`\bwork2\b).*$`&#x20;
+
+* **work1 and work2 :** The words work1 and work2 are two words you want to have in the forward content
+* In case you want to match more, you can add more _**(?=.**_**\bwork3\b)**_**(?=.**_**\bwork4\b)** in regex
+
+{% code title="Example" overflow="wrap" %}
+```
+* When add whitelist is ^(?=.\bwork1\b)(?=.\bwork2\b).*$ it will only process messages have contain work1 and work2 like:
+  "I have work1 to do and work2 as well."
+  "work1 and work2 are both important."
+  "work2 is harder than work1."
+* Will block if not have both work1 and work2 or only have work1 or work2 like:
+  "Only work1 is left."
+  "work2 is complete"
+  "Nothing to do here."
+```
+{% endcode %}
 {% endtab %}
 {% endtabs %}
+
+###
 
 ### &#x20;✅ Apply/Deactivate Whitelist for a Task
 
