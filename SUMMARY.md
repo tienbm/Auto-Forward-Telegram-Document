@@ -41,7 +41,7 @@
 
 * [💰 Make Money](make-money.md)
 * [🆓 Auto Forward Messages has a free version ?](auto-forward-messages-has-a-free-version.md)
-* [🦸 Upgrade package](upgrade-package.md)
+* [🦸 Upgrade Plans Package](upgrade-plans-package.md)
 * [⏫ Upgrade From GooglePlay or AppStore](upgrade-from-googleplay-or-appstore.md)
 * [🆙 How To Upgrade Current Package?](how-to-upgrade-current-package.md)
 * [♦ How to remove all your personal data?](how-to-remove-all-your-personal-data.md)
