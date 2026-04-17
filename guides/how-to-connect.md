@@ -1,4 +1,10 @@
+---
+hidden: true
+---
+
 # 📶 How to connect?
+
+### 1. How to Connect BOT use Command
 
 {% hint style="info" %}
 **Notice:** This command is used for connecting telegram accounts with **Auto Forward Messages BOT**. You need to run this first before trying to run other commands since they rely on you having a number connected.

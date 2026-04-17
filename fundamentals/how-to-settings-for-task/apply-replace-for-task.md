@@ -11,7 +11,7 @@
 
 
 {% hint style="danger" %}
-&#x20;_<mark style="color:red;">**if you turn on the feature**</mark>_<mark style="color:red;">** **</mark><mark style="color:red;">**Show Header Forwarder**</mark><mark style="color:red;">** **</mark>_<mark style="color:red;">**then features Reply, Edit, Replace,**</mark>_<mark style="color:red;">** **</mark><mark style="color:red;">**translate**</mark><mark style="color:red;">** **</mark>_<mark style="color:red;">**will not work.**</mark>_
+&#x20;_<mark style="color:red;">**if you turn on the feature**</mark>_<mark style="color:red;">**&#x20;**</mark><mark style="color:red;">**Show Header Forwarder**</mark><mark style="color:red;">**&#x20;**</mark>_<mark style="color:red;">**then features Reply, Edit, Replace,**</mark>_<mark style="color:red;">**&#x20;**</mark><mark style="color:red;">**translate**</mark><mark style="color:red;">**&#x20;**</mark>_<mark style="color:red;">**will not work.**</mark>_
 {% endhint %}
 
 {% hint style="info" %}

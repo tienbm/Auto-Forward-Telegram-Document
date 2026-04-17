@@ -1,20 +1,18 @@
 # Auto Forward Messages has a free version ?
 
-
-
 {% hint style="warning" %}
 Once your Auto Forward Telegram period expires, the free package will become available as an option for you to choose.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (80).png" alt=""><figcaption><p>Example about show option Free Plan</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (179).png" alt=""><figcaption><p>Example about show option Free Plan</p></figcaption></figure>
 
-With [@Auto\_Forward\_Messages\_Bot](https://t.me/Auto\_Forward\_Messages\_Bot) you can use it for **free** or **pay** if you want.
+With [@Auto\_Forward\_Messages\_Bot](https://t.me/Auto_Forward_Messages_Bot) you can use it for **free** or **pay** if you want.
 
 Here are the features available in the **Free Package**:
 
 ✅ Sponsored Ads
 
-✅ Limit create 5 Forward Tasks
+✅ Limit create 3 Forward Tasks
 
 {% code overflow="wrap" %}
 ```
@@ -22,11 +20,11 @@ One forward Tasks means that you create an auto forward from Channels/Grousp/Use
 ```
 {% endcode %}
 
-✅ Each Forward Task limit 5 IDs include **SOURCE\_CHAT\_ID** and **TARGET\_CHAT\_ID**
+✅ Each Forward Task limit 3 IDs include 1 **SOURCE\_CHAT\_ID** and 2 **TARGET\_CHAT\_ID**
 
-<pre data-overflow="wrap"><code>Limit IDs mean is when create a task forward only can enter limit 5 Channels/Groups/Users ID will auto forward
+<pre data-overflow="wrap"><code>Limit IDs mean is when create a task forward only can enter limit 3 Channels/Groups/Users ID will auto forward
 Example:
-/forward add work1 ID1,ID2,ID3 -> ID4,ID5
+/forward add work1 ID1 -> ID4,ID5
 <a data-footnote-ref href="#user-content-fn-1">ID is is taken from Channels/Groups/Users</a>
 </code></pre>
 

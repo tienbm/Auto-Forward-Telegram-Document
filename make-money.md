@@ -20,7 +20,7 @@ description: Join Our Lucrative Affiliate Program
 
 ## 💫 Join Our Lucrative Affiliate Program 💫
 
-🌟 **Make Money by Referring Friends to Auto Forward Messages!**🌟
+🌟 **Make Money by Referring Friends to Auto Forward Messages!**&#xD83C;�
 
 Welcome to our exciting affiliate program, where you have the fantastic opportunity to earn money by inviting your friends to become part of the Auto Forward Messages community. The process is simple and rewarding! When your referred users upgrade to a paid plan, you'll earn a percentage based on their spending.
 
@@ -40,9 +40,9 @@ Welcome to our exciting affiliate program, where you have the fantastic opportun
 
 🌟 Conditions to Receive Credits: To qualify for the credits, please ensure the following:&#x20;
 
-1️⃣ The users you invite must be new to [@Auto\_Forward\_Messages\_Bot](https://t.me/Auto\_Forward\_Messages\_Bot).&#x20;
+1️⃣ The users you invite must be new to [@Auto\_Forward\_Messages\_Bot](https://t.me/Auto_Forward_Messages_Bot).&#x20;
 
-2️⃣ The phone number used by the invited users must not have been previously registered with [@Auto\_Forward\_Messages\_Bot](https://t.me/Auto\_Forward\_Messages\_Bot).
+2️⃣ The phone number used by the invited users must not have been previously registered with [@Auto\_Forward\_Messages\_Bot](https://t.me/Auto_Forward_Messages_Bot).
 
 💡 Unlock Your Earning Potential: The more friends you invite, the higher your earnings potential becomes! Share your Affiliate Link with your network, on social media, and even on your website or blog. The possibilities are limitless.
 

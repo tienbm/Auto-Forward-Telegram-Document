@@ -16,11 +16,11 @@ Before upgrading your package, make sure you have:
 #### Step 1: Access the AutoForward Bot
 
 1. Open your Telegram app.
-2. Start a conversation with the [Auto Forward Messages](https://t.me/Auto\_Forward\_Messages\_Bot).
+2. Start a conversation with the [Auto Forward Messages](https://t.me/Auto_Forward_Messages_Bot).
 
 #### Step 2: Check Current Package Details
 
-<figure><img src=".gitbook/assets/image (85).png" alt=""><figcaption><p>Subscription Plans Available</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (184).png" alt=""><figcaption><p>Subscription Plans Available</p></figcaption></figure>
 
 1. In the bot chat, type `/upgrade` to retrieve information about available upgrade packages.
 2. The bot will provide details of the available upgrade options, including features and pricing.
@@ -40,11 +40,7 @@ Before upgrading your package, make sure you have:
 
 ✅ [**IOS VERSION**](https://bit.ly/autoforward-for-telegram-ios)      ✅ [**ANDROID VERSION**](https://bit.ly/autoforward-for-telegram-android)
 
-<div align="left">
-
-<figure><img src=".gitbook/assets/Screenshot_20231107-154139.png" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src=".gitbook/assets/Screenshot_20231107-154139.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 **Step 1: Access Your Mobile App**
 

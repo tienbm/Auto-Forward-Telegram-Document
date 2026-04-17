@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # 🌀 Replace (Without Commands): Create And Management
 
 {% hint style="info" %}

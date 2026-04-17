@@ -1,8 +1,28 @@
-# 🛤 Clone Message
+# ©️ Clone Message
 
 {% hint style="success" %}
 This command is used for cloning (mirror) chats/channels or users messages from SOURCE to DESTINATION
 {% endhint %}
+
+### Use Mobile App
+
+{% hint style="success" %}
+🟢 **For Android** : [Click To Download On Google Play](https://bit.ly/autoforward-for-telegram-android)
+
+🟢 **For IOS**: [Click To Download On Apple Store](https://bit.ly/autoforward-for-telegram-ios)
+
+🟢 **For Web**: [https://web.autoforwardtelegram.com/](https://web.autoforwardtelegram.com/)
+{% endhint %}
+
+#### Part1: Clone Messages from One Channel to Another&#x20;
+
+{% embed url="https://youtu.be/iIlr8c7vDCQ" %}
+
+#### Part2: Clone Messages from One Group to Group/Topics
+
+{% embed url="https://youtu.be/ReIA8fNXk18" %}
+
+### Use BOT Command
 
 {% hint style="warning" %}
 **Important Info**
@@ -36,8 +56,6 @@ This command is used for cloning (mirror) chats/channels or users messages from 
 
 Here are a few example syntax on how to do this
 
-{% tabs %}
-{% tab title="Command Syntax" %}
 Type **/getchanel** or **/getgroup** or **/getuser** on Auto Forward Telegram before using this command to get **SOURCE\_CHAT\_ID** and **TARGET\_CHAT\_ID**&#x20;
 
 {% code title="➡️ Command Syntax" overflow="wrap" %}
@@ -55,14 +73,14 @@ Type **/getchanel** or **/getgroup** or **/getuser** on Auto Forward Telegram be
 * **delay**: break time seconds after each clone message {**Optional**,**Default = 5**}
 * **from\_topic**: enter source topic id if you want to clone from group have topics([How to Get](clone-message.md#how-to-get-topic-id)) {**Optional**, **Default = 0**}
 * **to\_topic**: enter the target topic id if you want to copy to group topics([How to Get](clone-message.md#how-to-get-topic-id)) {**Optional**, **Default = 0**}
-{% endtab %}
 
-{% tab title="Syntax Example" %}
-❇️ I have a Channel Source have name is **Source Chat Demo** with **ID = 1656164752** and **Target** is channel have name is **Target Chat Demo** with **ID = 1716791967**
+#### ❇️ **Example** ❇️
+
+&#x20;I have a Channel Source have name is **Source Chat Demo** with **ID = 1656164752** and **Target** is channel have name is **Target Chat Demo** with **ID = 1716791967**
 
 ➡️ I want clone 100 message start from first message and each copy is spaced 5 seconds apart
 
-{% code title="Syntax with param default" overflow="wrap" %}
+{% code title="Syntax default config" overflow="wrap" %}
 ```
 /clone 1656164752 -> 1716791967
 ```
@@ -84,9 +102,9 @@ Type **/getchanel** or **/getgroup** or **/getuser** on Auto Forward Telegram be
 ```
 {% endcode %}
 
-* **Example For Group Topics to Channel**
+❇️  **Example For Group Topics to Channel**
 
-❇️ I have a **Group Source** have support **Topics,** group name is **Topics Group Test** with **ID = 1894696594** and [**Topic\_ID**](clone-message.md#how-to-get-topic-id) **= 2 and Target** is channel have name **Target Chat Demo** with **ID = 1716791967**
+I have a **Group Source** have support **Topics,** group name is **Topics Group Test** with **ID = 1894696594** and [**Topic\_ID**](clone-message.md#how-to-get-topic-id) **= 2 and Target** is channel have name **Target Chat Demo** with **ID = 1716791967**
 
 ➡️ I want **clone** **10 message** in [**Topic\_ID**](clone-message.md#how-to-get-topic-id) **= 2** and **start from** [**message\_id**](clone-message.md#how-to-get-message-id-start) **is 7** and each copy is spaced **3 seconds** apart
 
@@ -96,9 +114,9 @@ Type **/getchanel** or **/getgroup** or **/getuser** on Auto Forward Telegram be
 ```
 {% endcode %}
 
-* **Example For Group Topics to Group Topics**
+❇️ **Example For Group Topics to Group Topics**
 
-❇️ I have a **Group Source** have support **Topics,** group name is **Topics Group Test** with **ID = 1894696594** and [**Topic\_ID**](clone-message.md#how-to-get-topic-id) **= 2** and a **Group Target** have support **Topics,** group name is **Target** **Topics Group Test** with **ID = 1818893682** and [**Topic\_ID**](clone-message.md#how-to-get-topic-id) **= 2**&#x20;
+&#x20;I have a **Group Source** have support **Topics,** group name is **Topics Group Test** with **ID = 1894696594** and [**Topic\_ID**](clone-message.md#how-to-get-topic-id) **= 2** and a **Group Target** have support **Topics,** group name is **Target** **Topics Group Test** with **ID = 1818893682** and [**Topic\_ID**](clone-message.md#how-to-get-topic-id) **= 2**&#x20;
 
 ➡️ I want **clone** **10 message** in **Topic\_ID =2** and **start from** [**message\_id**](clone-message.md#how-to-get-message-id-start) **is 7** and each copy is spaced **3 seconds** apart to **Group Target have** [**Topic\_ID**](clone-message.md#how-to-get-topic-id) **=4**
 
@@ -107,8 +125,6 @@ Type **/getchanel** or **/getgroup** or **/getuser** on Auto Forward Telegram be
 /clone 1894696594 -> 1818893682 limit:10 delay:3 start_id:7 from_topic:2 to_topic:4
 ```
 {% endcode %}
-{% endtab %}
-{% endtabs %}
 
 #### # How to Get message ID start?
 
@@ -136,13 +152,31 @@ Type **/getchanel** or **/getgroup** or **/getuser** on Auto Forward Telegram be
 Clone Message
 {% endembed %}
 
+### Clone By ID messages
+
+{% code title="Syntax Clone By ID message" overflow="wrap" %}
+```
+/clone SOURCE_CHAT_ID -> TARGET_CHAT_ID delay:x start_id:[x]
+```
+{% endcode %}
+
+**start\_id**: is a list of message IDs separated by commas will clone ([How to Get](clone-message.md#how-to-get-message-id-start)) {**Optional**, **Default = 2**}.&#x20;
+
+❇️ **Example** ❇️&#x20;
+
+{% code overflow="wrap" %}
+```
+/clone 1656164752 -> 1716791967 delay:5 start_id:2,50,99,500
+```
+{% endcode %}
+
 ## ❇️ How To Setup Condition For Clone?
 
 From BOT **Auto Forward Messages** type **/clone** or click Menu and **select /clone** to get **describe**
 
-<figure><img src="../.gitbook/assets/image (73).png" alt=""><figcaption><p>Select clone from menu bot</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (172).png" alt=""><figcaption><p>Select clone from menu bot</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (72).png" alt=""><figcaption><p>Menu Clone</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (171).png" alt=""><figcaption><p>Menu Clone</p></figcaption></figure>
 
 ### Filters Clone
 
@@ -174,7 +208,7 @@ This menu is used to filters messages by type when process clone.&#x20;
 * **Photos without Text:** check ✅ if you want to **ignore post Photo without Text**
 * **Without Username:** check ✅ if you want to **ignore post of Users Without Username on Telegram (ONLY FOR GROUP)**
 
-<figure><img src="../.gitbook/assets/image (74).png" alt=""><figcaption><p>Menu Filters Clone</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (173).png" alt=""><figcaption><p>Menu Filters Clone</p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -203,7 +237,7 @@ This menu is used to remove text, video, photo etc from messages when clone if t
 * **URL:** check ✅ if you want to **remove link messages**
 * **URL Preview:** check ✅ if you want to **remove preview url**
 
-<figure><img src="../.gitbook/assets/image (75).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (174).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -239,7 +273,7 @@ If you do not have a **blacklist**, you can create it by following these [instru
 **This is feature help replace content before clone**&#x20;
 
 {% hint style="info" %}
-If you do not have a **replace**, you can create it by following these [instructions](replace-create-and-management.md#create-new-replace)
+If you do not have a **replace**, you can create it by following these [instructions](replace-create-and-management/#create-new-replace)
 {% endhint %}
 
 **1.**  Select **Replace** from **Menu Clone to show list Replace**
@@ -269,7 +303,7 @@ You can add a header or footer for each post when clone to channels target
 {% tab title="Instructions" %}
 To reach this first you will need to type **/clone** on **Auto Forward Telegram BOT.** Now click on  **Add Header or Add Footer** ➡️&#x20;
 
-<figure><img src="../.gitbook/assets/image (83).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (182).png" alt=""><figcaption></figcaption></figure>
 
 &#x20; ➡️ **Enter text content you want show .**
 
@@ -308,6 +342,8 @@ To reach this first you will need to type **/clone** on **Auto Forward Telegram 
 &#x20; ➡️ **\[\[FORWARD\_FROM\_CHAT]]** if you want to show message owner name
 
 &#x20; ➡️ **\[\[ORIGIN\_POST\_DATE]]** if you want to show post date created
+
+&#x20; ➡️ **\[\[ORIGIN\_DESCRIPTION]]** if you want to show description of channel or group
 {% endtab %}
 {% endtabs %}
 
@@ -319,7 +355,7 @@ To reach this first you will need to type **/clone** on **Auto Forward Telegram 
 
 {% tabs %}
 {% tab title="Instructions" %}
-<figure><img src="../.gitbook/assets/image (84).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (183).png" alt=""><figcaption></figcaption></figure>
 
 To reach this first you will need to type **/clone** on **Auto Forward Telegram BOT.** Now click on  **Show Header Forwarder** ➡️&#x20;
 {% endtab %}

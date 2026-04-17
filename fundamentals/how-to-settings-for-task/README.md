@@ -1,4 +1,4 @@
-# 🛠 How To Settings For Task
+# 🛠️ How To Settings For Task
 
 {% hint style="info" %}
 This is list menu for task settings such as **Edit Source Chat, Edit Target Chat or Delete Task or Advanced Configuration and more**
@@ -17,7 +17,7 @@ This is list menu for task settings such as **Edit Source Chat, Edit Target Chat
 {% endtab %}
 {% endtabs %}
 
-<figure><img src="../../.gitbook/assets/image (69).png" alt=""><figcaption><p>Setting Task</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (168).png" alt=""><figcaption><p>Setting Task</p></figcaption></figure>
 
 {% tabs %}
 {% tab title="Options Explained" %}
@@ -34,13 +34,13 @@ This is list menu for task settings such as **Edit Source Chat, Edit Target Chat
 
 ### **Advanced Configuration**
 
-<figure><img src="../../.gitbook/assets/image (70).png" alt=""><figcaption><p><strong>Advanced Configuration</strong></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (169).png" alt=""><figcaption><p><strong>Advanced Configuration</strong></p></figcaption></figure>
 
 {% tabs %}
 {% tab title="Options Explained" %}
 * **Show Header Forwarder :** check ✅ if you want all your messages will be prefixed with "Forwarded from ...".&#x20;
 
-&#x20;      ️➡️ _<mark style="color:red;">**Note: if you turn on the feature**</mark>_<mark style="color:red;">** **</mark><mark style="color:red;">**Show Header Forwarder**</mark><mark style="color:red;">** **</mark>_<mark style="color:red;">**then features Reply, Edit, Replace,**</mark>_<mark style="color:red;">** **</mark><mark style="color:red;">**translate**</mark><mark style="color:red;">** **</mark>_<mark style="color:red;">**will not work.**</mark>_
+&#x20;      ️➡️ _<mark style="color:red;">**Note: if you turn on the feature**</mark>_<mark style="color:red;">**&#x20;**</mark><mark style="color:red;">**Show Header Forwarder**</mark><mark style="color:red;">**&#x20;**</mark>_<mark style="color:red;">**then features Reply, Edit, Replace,**</mark>_<mark style="color:red;">**&#x20;**</mark><mark style="color:red;">**translate**</mark><mark style="color:red;">**&#x20;**</mark>_<mark style="color:red;">**will not work.**</mark>_
 
 * **Duplicate Filters:** check ✅ if you want to **block duplicate messages** from forwarding.
 * **Replace:** click ➡️ if you want to replace word feature to work on this task

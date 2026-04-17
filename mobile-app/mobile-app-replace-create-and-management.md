@@ -31,6 +31,12 @@ Optional: can skip
 * **Apply For Task(Optional)**: If you have created a task before, you can choose to apply it now or skip it and do it later
 * <mark style="color:green;">**Once you have filled in the information, click Create Replace to complete**</mark>
 
+#### &#x20;\* **Label** Option
+
+* **Basic** : Use content is text basic
+* **Regex**: Use content is regex
+* **Remove Line**: This feature is used to remove lines from the message. You will use keywords to check message lines and if a keyword or one of the keywords (if multiple) is found on the line, AutoForward will remove that line from the final result.
+
 ## Management and apply for Task
 
 **Step 1.** Open **Replaces Screen**
@@ -39,11 +45,7 @@ Optional: can skip
 
 **Step 2.** At **Replace Screen** click **item Replace you want apply. A popup will show**
 
-<div align="left">
-
-<figure><img src="../.gitbook/assets/popre (1).png" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../.gitbook/assets/popre (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 **Step 3. Click Activate/Deactivate For Task to show list Task will apply or deactivate**
 

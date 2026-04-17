@@ -6,46 +6,39 @@
   ✅ Automatically alert you when BOT cannot connect to your account or your account is limited by telegram. It will help you proactively know how your account is doing.\
   ✅ Fix bug duplicate reply message \
   ✅ Fix bug black/white list not work with Album\
-  ✅ Improved some functions and fixed many small bugs.\
-
+  ✅ Improved some functions and fixed many small bugs.<br>
 *   \=== **25-03-2022 ===**\
     🟢 NEW FEATURE 🟢
 
-    1️⃣ Added Watermark option to the bot. (use /settings command)\
-
+    1️⃣ Added Watermark option to the bot. (use /settings command)<br>
 
     ✅ Fix some bug translate language feature.\
     ✅ Fix some bug when forward file, video, image, voice ..etc in channel restrict saving content. \
-    ✅ Improved some functions and fixed many small bugs.\
-
+    ✅ Improved some functions and fixed many small bugs.<br>
 * \=== **17-03-2022 ===**\
   🟢 NEW FEATURE 🟢\
   1️⃣ Add Translate Language (use /settings command) \
   \
-  ✅ Improved some functions and fixed many small bugs\
-
+  ✅ Improved some functions and fixed many small bugs<br>
 *   \=== **16-03-2022 ===**\
     🟢 NEW FEATURE 🟢
 
     1️⃣ Add Crypto Filters (use /settings command) \
     2️⃣ Add more information for Blacklist and Whitelist when using /settings command \
-    3️⃣ Support feature clone: delay time, replace ..etc\
-
+    3️⃣ Support feature clone: delay time, replace ..etc<br>
 
     🛑 BUG Issue🛑
 
     ✅ Fix forwarding not working when creating multiple tasks with the same SOURCE\_ID to multiple TARGET\_ID \
     ✅ Add warning and stop forwarding when your telegram account is limited \
-    ✅ Improved some functions and fixed many small bugs\
-
+    ✅ Improved some functions and fixed many small bugs<br>
 *   \=== **09-03-2022 ===**\
     🟢 NEW FEATURE 🟢
 
     1️⃣ New Cleaner format: URL, Mention, Hashtag \
     2️⃣ New Filters: Link \
     3️⃣ Add header, footer every message (use command /settings) \
-    4️⃣ Add max\_time\_edit (use command /forward)\
-
+    4️⃣ Add max\_time\_edit (use command /forward)<br>
 
     🛑 BUG Issue🛑
 
@@ -62,8 +55,7 @@
   3️⃣ Support new function: Restart Setup, Reset Config button (use command /profile)\
   🛑 BUG Issue🛑\
   ✅ Automatically disable task forward when any SOURCE\_ID or TARGET\_ID fails or is banned.\
-  ✅ Automatically stop all forward actions when your account is time-limited. When the limit expires, it will automatically work again.\
-
+  ✅ Automatically stop all forward actions when your account is time-limited. When the limit expires, it will automatically work again.<br>
 *   \=== **23-02-2022 ===**\
     🟢 NEW FEATURE 🟢
 

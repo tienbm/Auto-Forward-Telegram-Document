@@ -6,7 +6,7 @@ Please follow the following steps to quickly fix the problem
 
 1. **CREATE CHANNEL SOURCE A AND CHANNEL TARGET B**
 2. **CREATE TASK CHANNEL A AND FORWARD TO B CHANNEL AND SIMULATE THE PROBLEMS**
-3. **SEND USER\_ID AND LINK INVITE TO CHANNEL SOURCE AND TARGET, GRANT ACCESS FOR ADMIN SUPPORT FIX BUG**
+3. **Get Your UserID of Auto Forward AND  SEND UserID AND LINK INVITE TO  YOUR CHANNEL SOURCE AND TARGET, GRANT ACCESS FOR ADMIN SUPPORT FIX BUG**
 
 <figure><img src="../../.gitbook/assets/flowfixbug.png" alt=""><figcaption></figcaption></figure>
 
