@@ -1,53 +1,55 @@
 # Auto Forward Messages has a free version ?
 
+Yes — and you can use it long-term 🚀 With Auto Forward Messages Bot, you can get started immediately using the Free Plan, no payment required.
+
 {% hint style="warning" %}
-Once your Auto Forward Telegram period expires, the free package will become available as an option for you to choose.
+Once your Auto Forward Telegram period expires, the free package will become available as an option for Once your Premium plan expires, you can always switch back to the Free Plan anytime.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (179).png" alt=""><figcaption><p>Example about show option Free Plan</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-With [@Auto\_Forward\_Messages\_Bot](https://t.me/Auto_Forward_Messages_Bot) you can use it for **free** or **pay** if you want.
+### 🎯 Free Plan — Perfect for getting started
 
-Here are the features available in the **Free Package**:
+You can still run a solid auto-forward system with these core features:
 
-✅ Sponsored Ads
+✅ **Create up to 3 Forward Tasks**\
+→ Great for personal use, testing, or small setups
 
-✅ Limit create 3 Forward Tasks
+✅ **Each task supports 1 source → 2 targets**\
+→ Enough to build a simple content flow
 
-{% code overflow="wrap" %}
-```
-One forward Tasks means that you create an auto forward from Channels/Grousp/Users to Your Channels/Groups/Users
-```
-{% endcode %}
+✅ **Unlimited forwarded messages**\
+→ No limits on how many messages you send
 
-✅ Each Forward Task limit 3 IDs include 1 **SOURCE\_CHAT\_ID** and 2 **TARGET\_CHAT\_ID**
+✅ **Toggle Forward Header ON/OFF**
 
-<pre data-overflow="wrap"><code>Limit IDs mean is when create a task forward only can enter limit 3 Channels/Groups/Users ID will auto forward
-Example:
-/forward add work1 ID1 -> ID4,ID5
-<a data-footnote-ref href="#user-content-fn-1">ID is is taken from Channels/Groups/Users</a>
-</code></pre>
+✅ **Free to use forever**
 
-✅ Unlimited messages sent in forwarding missions
+***
 
-✅ ON/OFF Show Forward Header
+### ⚡ A few limitations (to keep it free for everyone)
 
-✅ Free until death
+🟡 Shared server resources → may be slower during peak times
 
-🟡 Use low configuration server
+🚫 Cannot forward messages to bots
 
-🟡 Often overloaded and lost connection
+🚫 No edit / delete / reply from source messages
 
-🚫 Can't forward to Bots
+🚫 Advanced features (AI, filters, replace, etc.) are not included
 
-🚫 Can't edit, delete, reply message same source chat
+***
 
-🚫 Can't use premium feature
+### 💡 When should you upgrade?
 
-❇️ **Recommendation: For best performance and uninterrupted work use premium plans**
+You might consider upgrading if you:
 
-If you want more advanced features, use the **/upgrade** command to view package details.
+* Manage multiple channels or groups
+* Need advanced automation (AI rewrite, filtering, scheduling…)
+* Want faster and more stable performance
 
-If you have any questions, let me know.
+👉 You can check available plans anytime using `/upgrade`.
 
-[^1]: [https://docs-v2.autoforwardtelegram.com/guides/get-information-channels-groups-your-account](https://docs-v2.autoforwardtelegram.com/guides/get-information-channels-groups-your-account)
+***
+
+👉 But if your goal is **simple, reliable, and free auto-forwarding**, the Free Plan is more than enough to get started and keep running.
+

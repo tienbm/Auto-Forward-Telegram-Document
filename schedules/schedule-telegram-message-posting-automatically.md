@@ -101,7 +101,7 @@ Example: Enter `1` to post every **1 minute**, or `5` to post every **5 minutes*
 
 **Schedule Start Time** allows users to set a specific future date and time when the interval-based auto-posting will begin. Before this time, the task remains inactive even if enabled.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt="" width="434"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt="" width="434"><figcaption></figcaption></figure>
 
 **Key Features**
 

@@ -66,7 +66,7 @@ You can arrange the buttons in several layout styles:
 
 **Message Button Filters** allow you to control when inline buttons appear on forwarded messages. You can hide buttons based on specific message types, giving you precise control over button visibility.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt="" width="435"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt="" width="435"><figcaption></figcaption></figure>
 
 **Key Features**
 
