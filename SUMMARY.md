@@ -21,6 +21,9 @@
 * [Forward Rate Limit](addons/forward-rate-limit.md)
 * [Header/Footer Keyword Filter](addons/header-footer-keyword-filter.md)
 * [Cross-Group CA Matching](addons/cross-group-ca-matching.md)
+* [Recover Token from Linked Post](addons/recover-token-from-linked-post.md)
+* [Auto Join Invite Links](addons/auto-join-invite-links.md)
+* [Paid Reaction](addons/paid-reaction.md)
 
 ## Modify Content
 
