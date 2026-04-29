@@ -75,6 +75,10 @@
 
 * [Forward Header](forwarded-message-controls/forward-header.md)
 
+## publish
+
+* [How to Get a Discord Bot Token](publish/how-to-get-a-discord-bot-token.md)
+
 ## Fundamentals
 
 * [Debug Mode For Task](fundamentals/debug-mode-for-task.md)
