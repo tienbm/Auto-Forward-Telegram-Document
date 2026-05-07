@@ -1,12 +1,12 @@
 ---
-icon: puzzle-piece
+icon: puzzle
 ---
 
-# Dialog Broadcast
+# Telegram Spammer
 
 ### Overview
 
-Dialog Broadcast automatically sends messages from a source chat to multiple target chats on a customized schedule. Perfect for daily announcements, scheduled content distribution, and automated campaigns.
+Telegram Spammer automatically sends messages from a source chat to multiple target chats on a customized schedule. Perfect for daily announcements, scheduled content distribution, and automated campaigns.
 
 #### What It Does
 
@@ -30,7 +30,7 @@ Dialog Broadcast automatically sends messages from a source chat to multiple tar
 
 #### Prerequisites
 
-1. ✅ Purchase Dialog Broadcast addon
+1. ✅ Purchase Telegram Spammer addon
 2. ✅ Have an active forwarding task with targets
 3. ✅ Know which chat to use as message source
 
@@ -38,10 +38,10 @@ Dialog Broadcast automatically sends messages from a source chat to multiple tar
 
 **Step 1: Purchase & Enable**
 
-1. Menu → My Addons → Dialog Broadcast → Unlock
+1. Menu → My Addons → Telegram Spammer → Unlock
 2. Open your task settings
-3. Find **Dialog Broadcast Settings** section
-4. Toggle **Enable Dialog Broadcast** to ON
+3. Find Telegram Spammer **Settings** section
+4. Toggle **Enable** Telegram Spammer to ON
 
 **Step 2: Configure Source**
 
@@ -210,7 +210,7 @@ Broadcasts 3 marketing messages, 3 times per day to selected audiences.
 
 **Check**:
 
-* [ ] Dialog Broadcast is enabled in task settings
+* [ ] Telegram Spammer is enabled in task settings
 * [ ] At least one schedule day selected
 * [ ] At least one time added
 * [ ] Source chat selected
@@ -333,7 +333,7 @@ If using specific message IDs and message is deleted, broadcast fails. If using 
 
 #### How do I stop broadcasts temporarily?
 
-Toggle "Enable Dialog Broadcast" to OFF. Schedule and settings are preserved.
+Toggle "Enable Telegram Spammer" to OFF. Schedule and settings are preserved.
 
 #### Can I test before going live?
 
@@ -358,7 +358,7 @@ If issues persist:
 
 ### Summary
 
-Dialog Broadcast automates scheduled message distribution:
+Telegram Spammer automates scheduled message distribution:
 
 ✅ Set source + targets + schedule = automated broadcasts\
 ✅ Handles rate limiting and errors gracefully\

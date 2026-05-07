@@ -1,5 +1,5 @@
 ---
-icon: puzzle-piece
+icon: puzzle
 ---
 
 # Auto Join Invite Links

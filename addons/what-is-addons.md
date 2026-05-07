@@ -1,5 +1,5 @@
 ---
-icon: question
+icon: layer-plus
 ---
 
 # What is Addons ?

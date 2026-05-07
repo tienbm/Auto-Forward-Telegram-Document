@@ -16,7 +16,7 @@
 * [Auto Clone Button](addons/auto-clone-button.md)
 * [AlphaGardeners Extract](addons/alphagardeners-extract.md)
 * [Bypass Anti-Repasse Bot](addons/bypass-anti-repasse-bot.md)
-* [Dialog Broadcast](addons/dialog-broadcast.md)
+* [Telegram Spammer](addons/telegram-spammer.md)
 * [Paid Media Auto-Purchase](addons/paid-media-auto-purchase.md)
 * [Forward Rate Limit](addons/forward-rate-limit.md)
 * [Header/Footer Keyword Filter](addons/header-footer-keyword-filter.md)
@@ -24,6 +24,7 @@
 * [Recover Token from Linked Post](addons/recover-token-from-linked-post.md)
 * [Auto Join Invite Links](addons/auto-join-invite-links.md)
 * [Paid Reaction](addons/paid-reaction.md)
+* [Final Redirect Link](addons/final-redirect-link.md)
 
 ## Modify Content
 
@@ -77,6 +78,7 @@
 
 ## publish
 
+* [X & Discord Publisher](publish/x-and-discord-publisher.md)
 * [How to Get a Discord Bot Token](publish/how-to-get-a-discord-bot-token.md)
 * [How to Get a Discord Channel ID](publish/how-to-get-a-discord-channel-id.md)
 * [How to Get X API Key](publish/how-to-get-x-api-key.md)
