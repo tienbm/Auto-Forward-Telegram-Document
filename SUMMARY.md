@@ -31,6 +31,7 @@
 * [Replace Content](modify-content/replace-content.md)
 * [Setup Sender For Task](modify-content/setup-sender-for-task.md)
 * [AI Mode](modify-content/ai-mode/README.md)
+  * [AI Custom Server](modify-content/ai-mode/ai-custom-server.md)
   * [How to Get Your ChatGPT API Key?](modify-content/ai-mode/how-to-get-your-chatgpt-api-key.md)
   * [How to Get Your Gemini API Key?](modify-content/ai-mode/how-to-get-your-gemini-api-key.md)
   * [How to Get Your Perplexity API Key?](modify-content/ai-mode/how-to-get-your-perplexity-api-key.md)
