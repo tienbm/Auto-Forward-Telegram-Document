@@ -25,6 +25,9 @@
 * [Auto Join Invite Links](addons/auto-join-invite-links.md)
 * [Paid Reaction](addons/paid-reaction.md)
 * [Final Redirect Link](addons/final-redirect-link.md)
+* [Auto Delete Messages](addons/auto-delete-messages.md)
+* [Outbound Webhooks](addons/outbound-webhooks.md)
+* [Config Backup & Restore](addons/config-backup-and-restore.md)
 
 ## Modify Content
 
@@ -104,6 +107,7 @@
 * [🌀 Replace (Without Commands): Create And Management](fundamentals/replace-without-commands-create-and-management.md)
 * [©️ Clone Message](fundamentals/clone-message.md)
 * [🦸 Profile Settings](fundamentals/profile-settings.md)
+* [🎁 Reward Center](fundamentals/reward-center.md)
 
 ***
 

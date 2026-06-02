@@ -5,6 +5,27 @@ description: >-
   you can effortlessly customize forwarding rules..
 cover: .gitbook/assets/bannersmall (3).png
 coverY: -57.086765994741455
+layout:
+  width: default
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # 😍 Welcome to Auto Forward Messages Telegram Bot!
