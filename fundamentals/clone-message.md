@@ -7,11 +7,9 @@ This command is used for cloning (mirror) chats/channels or users messages from 
 ### Use Mobile App
 
 {% hint style="success" %}
-🟢 **For Android** : [Click To Download On Google Play](https://bit.ly/autoforward-for-telegram-android)
-
-🟢 **For IOS**: [Click To Download On Apple Store](https://bit.ly/autoforward-for-telegram-ios)
-
-🟢 **For Web**: [https://web.autoforwardtelegram.com/](https://web.autoforwardtelegram.com/)
+✅ **iOS** → [App Store](https://apps.apple.com/us/app/autoforward-for-telegram/id6447486093)\
+✅ **Android** → [Google Play](https://play.google.com/store/apps/details?id=com.autoforward.telegramforward)\
+✅ **Web** → [web.autoforwardtelegram.com](https://web.autoforwardtelegram.com/)
 {% endhint %}
 
 #### Part1: Clone Messages from One Channel to Another&#x20;

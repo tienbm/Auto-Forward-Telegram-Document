@@ -87,6 +87,10 @@
 * [How to Get a Discord Channel ID](publish/how-to-get-a-discord-channel-id.md)
 * [How to Get X API Key](publish/how-to-get-x-api-key.md)
 
+## Clone
+
+* [Clone Messages](clone/clone-messages.md)
+
 ## Fundamentals
 
 * [Debug Mode For Task](fundamentals/debug-mode-for-task.md)

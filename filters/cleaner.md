@@ -14,7 +14,7 @@ icon: broom-wide
 
 <figure><img src="https://blog.autoforwardtelegram.com/wp-content/uploads/2025/07/telegram-auto-forward-cleaner-filters-bannerv3.webp" alt=""><figcaption></figcaption></figure>
 
-If you want to skip certain Telegram messages or clean up their content before forwarding, Auto Forward Messenger’s Cleaner and Filters features are exactly what you need.[ **The Filters feature**](/broken/pages/7LbCyUeF0eI8klFtYwx1) **lets you skip entire messages** based on specific conditions, while **the Cleaner actively removes** unwanted elements from within each message—such as links, emojis, hashtags, or other clutter.\
+If you want to skip certain Telegram messages or clean up their content before forwarding, Auto Forward Messenger’s Cleaner and Filters features are exactly what you need.[ **The Filters feature**](https://app.gitbook.com/s/ddnL4cgrrb4y0Pnwxc5r/filters) **lets you skip entire messages** based on specific conditions, while **the Cleaner actively removes** unwanted elements from within each message—such as links, emojis, hashtags, or other clutter.\
 \
 Whether you’re managing a crypto channel, curating content, or forwarding to a group, these tools give you more control and better automation.
 
@@ -85,10 +85,10 @@ To completely remove clickable links, activate **Cleaner → CLEANER URL**. From
 
 Here’s a quick breakdown:
 
-| Feature                                           | What It Does                                                             |
-| ------------------------------------------------- | ------------------------------------------------------------------------ |
-| **Cleaner**                                       | Removes parts of a message (e.g., emojis, URLs, hashtags) from a message |
-| [**Filters**](/broken/pages/7LbCyUeF0eI8klFtYwx1) | Skips or blocks entire messages if they match certain conditions         |
+| Feature                                                               | What It Does                                                             |
+| --------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| **Cleaner**                                                           | Removes parts of a message (e.g., emojis, URLs, hashtags) from a message |
+| [**Filters**](https://app.gitbook.com/s/ddnL4cgrrb4y0Pnwxc5r/filters) | Skips or blocks entire messages if they match certain conditions         |
 
 ➡️ For the best results, use both together. That’s why many Telegram admins, content curators, and crypto traders trust Auto Forward Messenger—it gives them cleaner automation and smarter control.
 
