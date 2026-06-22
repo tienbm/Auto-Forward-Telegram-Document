@@ -83,6 +83,7 @@
 ## publish
 
 * [X & Discord Publisher](publish/x-and-discord-publisher.md)
+* [VK Social Publisher](publish/vk-social-publisher.md)
 * [How to Get a Discord Bot Token](publish/how-to-get-a-discord-bot-token.md)
 * [How to Get a Discord Channel ID](publish/how-to-get-a-discord-channel-id.md)
 * [How to Get X API Key](publish/how-to-get-x-api-key.md)
