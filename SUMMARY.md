@@ -28,6 +28,7 @@
 * [Auto Delete Messages](addons/auto-delete-messages.md)
 * [Outbound Webhooks](addons/outbound-webhooks.md)
 * [Config Backup & Restore](addons/config-backup-and-restore.md)
+* [Keyword Reply Threads](addons/keyword-reply-threads.md)
 
 ## Modify Content
 

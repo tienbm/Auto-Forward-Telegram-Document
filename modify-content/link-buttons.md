@@ -130,6 +130,117 @@ ELSE show buttons
 
 ***
 
+### **Link Button Keyword Visibility**
+
+#### Overview
+
+Use **Only show when post has keyword** to show your Link Buttons only on source posts that contain specific keywords.
+
+If you leave the keyword list empty, Link Buttons work as usual and appear based on your current configuration.
+
+This feature applies only to manually configured Link Buttons. It does not apply to Auto Clone Button.
+
+#### When To Use It
+
+Use this feature when you forward many types of posts from the same source, but only want buttons on selected posts.
+
+Examples:
+
+* Show `Open Trade` only when a post contains `entry`.
+* Show `Buy Now` only when a post contains `sale` or `discount`.
+* Show `View Chart` only when a post contains both `gold` and `signal`.
+
+#### How To Set It Up
+
+1. Open AutoForward and select your forwarding task.
+2. Open **Link Buttons**.
+3. Add or edit at least one valid button with a title and URL.
+4. Find the section **Only show when post has keyword**.
+5. Enter keywords, then press Enter, comma, or the add button to create keyword chips.
+6. Choose a match mode:
+   * **Match 1 keyword**: show the button if the post contains any keyword.
+   * **Match all keywords**: show the button only if the post contains every keyword.
+7. Optional: enable **Case sensitive** if uppercase/lowercase must match exactly.
+8. Tap **Done** to save.
+
+You can paste multiple keywords at once:
+
+```
+gold, entry, signal
+```
+
+Or one keyword per line:
+
+```
+gold
+entry
+signal
+```
+
+#### Examples
+
+#### Match 1 Keyword
+
+Keywords:
+
+```
+entry
+signal
+```
+
+Mode:
+
+```
+Match 1 keyword
+```
+
+Results:
+
+* `BTC entry now` -> button is shown.
+* `New signal posted` -> button is shown.
+* `Market update today` -> button is hidden.
+
+#### Match All Keywords
+
+Keywords:
+
+```
+gold
+entry
+```
+
+Mode:
+
+```
+Match all keywords
+```
+
+Results:
+
+* `Gold analysis today` -> button is hidden.
+* `Entry zone updated` -> button is hidden.
+* `Gold entry zone updated` -> button is shown.
+
+#### Case Sensitive
+
+Keyword:
+
+```
+VIP
+```
+
+If **Case sensitive** is enabled:
+
+* `VIP deal` -> button is shown.
+* `vip deal` -> button is hidden.
+
+#### Important Notes
+
+* Keywords are checked against the source post text or caption.
+* Posts without text or caption will not match keywords.
+* Other Link Button filters still apply. A button can still be hidden by media, reply, or message-type filters.
+* To turn this feature off, delete all keyword chips and tap **Done**.
+
 ### **Replace Links with Affiliate Links (Crypto)**
 
 This is where the money comes in.
