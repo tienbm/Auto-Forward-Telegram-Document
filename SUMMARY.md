@@ -9,6 +9,12 @@
 * [ℹ️ Get information channels, groups, your account](guides/get-information-channels-groups-your-account.md)
 * [📝 How To Create Task Auto Forward ?](guides/how-to-create-task-auto-forward.md)
 
+## Genaral
+
+***
+
+* [Setup Topics For Task](setup-topics-for-task.md)
+
 ## Addons
 
 * [What is Addons ?](addons/what-is-addons.md)
