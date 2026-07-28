@@ -98,6 +98,7 @@
 ## Clone
 
 * [Clone Messages](clone/clone-messages.md)
+* [Clone Messages with a Telegram Bot](clone/clone-messages-with-a-telegram-bot.md)
 
 ## Account
 
