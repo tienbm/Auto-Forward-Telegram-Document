@@ -1,256 +1,50 @@
 # How to Get X API Key
 
-## How to Get X API Key
+Use this guide to connect an **X** account to AutoForward. The current X Developer Console labels the credentials below under **OAuth 1.0 Keys**.
 
-### Overview
+### The four values AutoForward needs
 
-Use this guide when you want to connect an **X (Twitter)** account inside AutoForward.
+| AutoForward field     | Label in X Developer Console             |
+| --------------------- | ---------------------------------------- |
+| `Consumer Key`        | Consumer Key (also called API Key)       |
+| `Consumer Secret`     | Consumer Secret (also called API Secret) |
+| `Access Token`        | Access Token                             |
+| `Access Token Secret` | Access Token Secret                      |
 
-AutoForward currently requires these 4 values for an X Platform Account:
+All four values are required. They must come from the same X App and the X account that will publish posts.
 
-* API Key
-* API Secret
-* Access Token
-* Access Secret
+### Get the credentials
 
-If you are on the **Add Platform Account** screen and selected **X**, these are the values you need to paste into the form.
+1. Open [console.x.com](https://console.x.com/) and sign in with the X account that will be used for publishing.
+2. Create an App if you do not already have one, or select the existing App you want AutoForward to use.
+3. Open **Apps**, choose the App, then open **Keys & Tokens**.
+4. In **OAuth 1.0 Keys**, copy the **Consumer Key** and **Consumer Secret**.
+5. In the same section, generate the **Access Token** for the publishing X account. Copy both the **Access Token** and **Access Token Secret** that X displays.
+6. In AutoForward, open **Platform Accounts → Add Account → X**, then paste each value into the matching field and save.
 
-***
+X may show a **Regenerate** button instead of **Generate**. Regenerating a credential replaces the old value, so update the matching value in AutoForward immediately.
 
-### Before You Start
+### Allow posting before generating tokens
 
-Make sure you have:
+Open your App's **Settings** and set its permissions to **Read and write** before generating the Access Token. If you change permissions later, regenerate the Access Token pair and replace both values in AutoForward; existing tokens can keep the old permissions.
 
-* An X account
-* Access to the X Developer Portal
-* A developer app or permission to create one
+### Do not use these values
 
-Important:
+AutoForward uses OAuth 1.0a credentials. Do **not** paste any of these values into the four fields above:
 
-* AutoForward needs both the **app keys** and the **user access tokens**
-* Your app should have permission to **post on your behalf**
-* If your app is set to read-only, verification or publishing may fail
+* Bearer Token
+* Client ID
+* Client Secret
+* OAuth 2.0 Access Token
 
-***
-
-### What You Need to Collect
-
-You will copy these 4 values from the X Developer Portal:
-
-| AutoForward field | Value from X        |
-| ----------------- | ------------------- |
-| `API Key`         | API Key             |
-| `API Secret`      | API Key Secret      |
-| `Access Token`    | Access Token        |
-| `Access Secret`   | Access Token Secret |
-
-***
-
-### Step 1: Open the X Developer Portal
-
-1. Go to https://developer.x.com/en/portal/dashboard
-2. Sign in with your X account
-3. Open your existing Project/App, or create a new one if needed
-
-If X asks you to create a Project first, complete that step and then create an App inside it.
-
-***
-
-### Step 2: Open Your App Settings
-
-1. In the Developer Portal, select the app you want to use with AutoForward
-2. Open the app details page
-3. Find the sections related to:
-   * Keys and tokens
-   * App permissions
-   * User authentication settings
-
-The exact layout in X may change over time, but these sections are the ones you need.
-
-***
-
-### Step 3: Set the Correct App Permissions
-
-Before generating tokens, make sure the app can publish posts.
-
-Recommended setting:
-
-* **Read and write**
-
-If your app only has **Read** permission, AutoForward may connect incorrectly or fail when trying to publish.
-
-If you change permissions later:
-
-* Save the new permission settings
-* Generate a new **Access Token** and **Access Secret**
-* Update the values in AutoForward
-
-***
-
-### Step 4: Enable User Authentication If Needed
-
-Depending on the current X Developer Portal flow, you may need to enable user authentication for your app.
-
-If X shows a **User authentication settings** section:
-
-1. Enable it
-2. Choose the setup that allows user-context access
-3. Save the settings
-
-For AutoForward, the important point is that your app must be able to create **Access Token** and **Access Token Secret** for your account.
-
-***
-
-### Step 5: Copy API Key and API Secret
-
-1. Open the **Keys and tokens** section
-2. Find your app keys
-3. Copy:
-   * **API Key**
-   * **API Key Secret**
-
-In some X screens, these may also be labeled as:
-
-* Consumer Key
-* Consumer Secret
-
-If so:
-
-* Consumer Key = API Key
-* Consumer Secret = API Secret
-
-***
-
-### Step 6: Generate Access Token and Access Secret
-
-In the same **Keys and tokens** area, find the user token section and generate:
-
-* **Access Token**
-* **Access Token Secret**
-
-This step is required.
-
-AutoForward cannot use only the API Key and API Secret. It also needs the user-level token pair.
-
-If X provides a **Regenerate** button instead of **Generate**, use that and copy the newly created values.
-
-***
-
-### Step 7: Paste the Values into AutoForward
-
-1. Open **Platform Accounts** in AutoForward
-2. Tap **Add Account**
-3. Select **X**
-4. Enter an account name
-5. Paste each value into the matching field:
-   * API Key
-   * API Secret
-   * Access Token
-   * Access Secret
-6. Save the account
-7. Run **Verify Connection** if that option is shown
-
-If the credentials are valid, the account should move to a connected state after verification.
-
-***
-
-### Field Mapping Example
-
-If X gives you these values:
-
-```
-API Key: abc123
-API Key Secret: def456
-Access Token: ghi789
-Access Token Secret: xyz000
-```
-
-Then in AutoForward you fill:
-
-```
-API Key      -> abc123
-API Secret   -> def456
-Access Token -> ghi789
-Access Secret -> xyz000
-```
-
-***
-
-### Common Mistakes
-
-#### 1. Copying only the API Key pair
-
-AutoForward needs all 4 values, not just:
-
-* API Key
-* API Secret
-
-You must also provide:
-
-* Access Token
-* Access Secret
-
-#### 2. App is set to read-only
-
-If the app permission is **Read** only, posting may fail.
-
-Use:
-
-* **Read and write**
-
-#### 3. Changed permissions but kept old access tokens
-
-If you update app permissions in X, older access tokens may no longer match the new permission scope.
-
-After changing permissions:
-
-1. Regenerate the Access Token
-2. Regenerate the Access Token Secret
-3. Update AutoForward with the new values
-
-#### 4. Regenerated keys in X but still using the old ones in AutoForward
-
-When you regenerate any credential in X, the previous value can stop working.
-
-Update AutoForward immediately with the new values.
-
-#### 5. Mixing credentials from different apps
-
-Make sure all 4 values come from the same X app and the same user context.
-
-***
-
-### Security Notes
-
-* Treat all 4 values like passwords
-* Never share them in chats, screenshots, or tickets
-* Never commit them to Git or public repositories
-* If any value is exposed, regenerate it in X and update AutoForward immediately
-
-***
-
-### Quick Checklist
-
-* X Developer Portal access is available
-* Correct app is selected
-* App permission is set to **Read and write**
-* API Key copied
-* API Secret copied
-* Access Token generated and copied
-* Access Secret generated and copied
-* All 4 values pasted into AutoForward
-* Account saved and verified
-
-***
+They belong to a different X authentication method and cannot replace the four OAuth 1.0 values listed in the table.
 
 ### Troubleshooting
 
-If AutoForward cannot verify your X account:
+* **Connection or publishing fails:** confirm that all four values were copied from the same App, and that the Access Token belongs to the X account that should publish.
+* **You changed permissions or regenerated a value:** generate a fresh Access Token pair and update AutoForward before verifying again.
+* **X reports no credits or API access:** open **Billing → Credits** in the X Developer Console, add credits or confirm your App has access to the required API endpoint, then retry.
 
-1. Re-check that all 4 fields are filled
-2. Confirm the app permission is **Read and write**
-3. Regenerate **Access Token** and **Access Secret** after any permission change
-4. Make sure the values come from the same app
-5. Save the account again and re-run verification
+### Keep credentials secure
 
-If verification succeeds but publishing still fails, review the app permission and regenerate the user access tokens one more time.
+Treat every value as a password. X may display generated credentials only once; store them in a secure password manager, never share them in screenshots or support tickets, and regenerate them immediately if exposed.
