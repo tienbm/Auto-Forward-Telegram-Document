@@ -39,7 +39,7 @@ The **Replace** feature in Auto Forward Bot allows you to modify message content
 Use the syntax as shown below when you want to replace words or full paragraphs.\
 \
 ➡️ Change **black** to **white**\
-&#xNAN;**`/replace add re1 black -> white`**
+**`/replace add re1 black -> white`**
 
 ➡️ Remove keyword **black** from the message\
 `/replace add re1 black -> EMPTY`
@@ -132,7 +132,7 @@ BUY  UUDCHF M30 at 2023.06.16 15:30
 ```
 {% endcode %}
 
-➡️ Exam2: Refactor content use regex. Change all _"_**Take profit (1|2|3)**&#xD83D;�**at**_**"**_  to **TP** in content below 👇
+➡️ Exam2: Refactor content use regex. Change all _"_**Take profit (1|2|3)**&#x1F449;**at**_**"**_  to **TP** in content below 👇
 
 ```
 🚨Signal Alert🚨 

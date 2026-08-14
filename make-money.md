@@ -20,7 +20,7 @@ description: Join Our Lucrative Affiliate Program
 
 ## 💫 Join Our Lucrative Affiliate Program 💫
 
-🌟 **Make Money by Referring Friends to Auto Forward Messages!**&#xD83C;�
+🌟 **Make Money by Referring Friends to Auto Forward Messages!**&#x1F31F;
 
 Welcome to our exciting affiliate program, where you have the fantastic opportunity to earn money by inviting your friends to become part of the Auto Forward Messages community. The process is simple and rewarding! When your referred users upgrade to a paid plan, you'll earn a percentage based on their spending.
 

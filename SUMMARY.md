@@ -9,7 +9,7 @@
 * [ℹ️ Get information channels, groups, your account](guides/get-information-channels-groups-your-account.md)
 * [📝 How To Create Task Auto Forward ?](guides/how-to-create-task-auto-forward.md)
 
-## Genaral
+## Genearal
 
 ***
 
@@ -87,13 +87,14 @@
 
 * [Forward Header](forwarded-message-controls/forward-header.md)
 
-## publish
+## Forward To Another Platform
 
-* [X & Discord Publisher](publish/x-and-discord-publisher.md)
-* [VK Social Publisher](publish/vk-social-publisher.md)
-* [How to Get a Discord Bot Token](publish/how-to-get-a-discord-bot-token.md)
-* [How to Get a Discord Channel ID](publish/how-to-get-a-discord-channel-id.md)
-* [How to Get X API Key](publish/how-to-get-x-api-key.md)
+* [How to Auto Forward Telegram to X](forward-to-another-platform/how-to-auto-forward-telegram-to-x.md)
+* [How to Auto Forward Telegram to Discord](forward-to-another-platform/how-to-auto-forward-telegram-to-discord.md)
+* [How to Auto Forward Telegram to VK Social](forward-to-another-platform/how-to-auto-forward-telegram-to-vk-social.md)
+* [How to Get a Discord Bot Token](forward-to-another-platform/how-to-get-a-discord-bot-token.md)
+* [How to Get a Discord Channel ID](forward-to-another-platform/how-to-get-a-discord-channel-id.md)
+* [How to Get X API Key](forward-to-another-platform/how-to-get-x-api-key.md)
 
 ## Clone
 
