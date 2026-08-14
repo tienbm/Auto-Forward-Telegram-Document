@@ -14,6 +14,7 @@
 ***
 
 * [Setup Topics for a Forwarding Task](setup-topics-for-a-forwarding-task.md)
+* [Album Delivery Mode](album-delivery-mode.md)
 
 ## Addons
 
@@ -52,9 +53,7 @@
 * [Add Header / Footer](modify-content/add-header-footer.md)
 * [Translate Language](modify-content/translate-language.md)
 * [Add Watermark](modify-content/add-watermark.md)
-* [🪙 MMO Feature - Make Money Online](modify-content/mmo-feature-make-money-online/README.md)
-  * [🛍️ Make Money With Amazon](modify-content/mmo-feature-make-money-online/make-money-with-amazon.md)
-  * [🤝 Make Money With Awin1.Com](modify-content/mmo-feature-make-money-online/make-money-with-awin1.com.md)
+* [🪙 Affiliate Monetization](modify-content/affiliate-monetization.md)
 
 ## Filters
 
