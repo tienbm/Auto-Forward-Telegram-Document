@@ -54,7 +54,7 @@
 * [Add Header / Footer](modify-content/add-header-footer.md)
 * [Translate Language](modify-content/translate-language.md)
 * [Add Watermark](modify-content/add-watermark.md)
-* [🪙 Affiliate Monetization](modify-content/affiliate-monetization.md)
+* [💸 Affiliate Monetization](modify-content/affiliate-monetization.md)
 
 ## Filters
 

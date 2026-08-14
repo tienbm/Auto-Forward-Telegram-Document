@@ -1,136 +1,80 @@
-# 🪙 MMO Feature - Make Money Online
+# 💸 Affiliate Monetization
 
-### Overview
+### 1. What is Affiliate Monetization?
 
-**MMO Feature** allows users to automatically convert product links in forwarded messages into affiliate links, earning commission from supported e-commerce platforms.
+Affiliate Monetization automatically processes affiliate links when forwarding messages. Enter your affiliate ID for each platform, and the system will automatically replace the corresponding tracking ID in supported links.
+
+You do not need to configure every platform. Enable only the platforms you use.
 
 ### UI Structure
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-### Supported Platforms
+### 2. Supported Platforms
 
-#### 1. Amazon Affiliate
+| Platform   | Required information             | Example      |
+| ---------- | -------------------------------- | ------------ |
+| Amazon     | Amazon Affiliate Tag             | `mystore-20` |
+| Awin       | Awin Affiliate ID / Publisher ID | `123456`     |
+| eBay       | eBay Campaign ID                 | `12345678`   |
+| AliExpress | AliExpress Tracking ID           | `ABC123`     |
+| Shopee     | Shopee Affiliate ID              | `99999911`   |
 
-* **Config**: Amazon Tag (e.g., `mystore-20`)
-* **Auto Product Info**: Fetch product title, price, rating automatically
-* **Color**: Orange
+### 3. How to Set It Up
 
-#### 2. Awin Affiliate
+1. Open the message forwarding task.
+2. Open the feature settings and select **Affiliate Monetization**.
+3. Enable the affiliate platform you want to use.
+4. The full configuration section will appear automatically.
+5. Enter the correct affiliate ID in the corresponding field.
+6. For Amazon, optionally enable **Auto Fetch Product Info** to automatically retrieve the product title, price, and image from Amazon links.
+7. Tap **Save**.
 
-* **Config**: Awin Affiliate ID
-* **Color**: Blue
+### 4. How to Find Your Shopee Affiliate ID
 
-#### 3. eBay Partner Network
-
-* **Config**: eBay Campaign ID
-* **Color**: Red (#E53238)
-
-#### 4. AliExpress Affiliate
-
-* **Config**: AliExpress Tracking ID
-* **Color**: Red (#FF4747)
-
-#### 5. Shopee Affiliate
-
-* **Config**: Shopee Affiliate ID
-* **Color**: Orange (#EE4D2D)
-
-### How It Works
+Some Shopee links contain the affiliate ID in this format:
 
 ```
-Original Message:
-"Check this product: https://amazon.com/product/B08XYZ123"
-
-After Processing:
-"Check this product: https://amazon.com/product/B08XYZ123?tag=mystore-20"
-                                                          ^^^^^^^^^^^^^^^^
-                                                          Affiliate tag added
+utm_source=an_99999911
 ```
 
-### Features by Platform
-
-#### Amazon
-
-* Link conversion with affiliate tag
-* Optional auto-fetch: product name, price, rating
-* Works with all Amazon domains (.com, .co.uk, .de, etc.)
-
-#### Awin
-
-* Universal link conversion for Awin partners
-* Supports multiple merchants (ShareASale, Rakuten, etc.)
-
-#### eBay
-
-* Campaign ID tracking
-* Works with eBay global marketplace
-
-#### AliExpress
-
-* Tracking ID injection
-* Deep link generation
-
-#### Shopee
-
-* Affiliate ID tracking
-* Regional marketplace support (SG, MY, TH, VN, PH)
-
-### Use Cases
-
-#### Use Case 1: Product Review Channel
+The Affiliate ID is:
 
 ```
-Enable: Amazon + eBay
-→ All product links automatically converted to affiliate links
-→ Earn commission on purchases
+99999911
 ```
 
-#### Use Case 2: Deal Hunter Bot
+Do not include the `an_` prefix when the field requires a numeric Affiliate ID. This format is described in Shopee’s affiliate link guide. [View Shopee’s guide](https://help.shopee.co.id/portal/10/article/184879-\[Shopee-Affiliate-Program]-Pedoman-Pembuatan-Link-Pendek-Affiliate)
 
-```
-Enable: AliExpress + Shopee
-→ Forward deals from deal channels
-→ Add affiliate tracking to all links
-```
+### 5. After Saving
 
-#### Use Case 3: Multi-Platform Store
+When the task receives a message containing a link from an enabled platform, the system automatically processes the link using the affiliate ID you entered.
 
-```
-Enable: All platforms
-→ Forward from supplier channels
-→ Auto-convert all product links
-```
+Only enabled platforms are applied. Disabled platforms will not have their affiliate IDs added or replaced.
 
-#### Header
+### 6. Common Issues
 
-* Icon: Monetization (dollar sign)
-* Title: "MMO Feature"
-* Description: Feature overview
+#### The affiliate ID was not applied
 
-#### Platform Cards
+Check the following:
 
-Each platform has:
+* The corresponding platform is enabled.
+* The affiliate ID is correct.
+* You tapped **Save** after making changes.
+* The link belongs to a supported platform.
 
-* **Brand Color**: Platform-specific color scheme
-* **Toggle Switch**: Enable/disable platform
-* **Input Fields**: Platform-specific IDs/tags
-* **Helper Text**: Setup instructions
+#### The configuration cannot be saved
 
-### Benefits
+Every enabled platform must have a corresponding affiliate ID. Enter all required information before saving.
 
-* **Passive Income**: Earn commission automatically
-* **Multi-Platform**: Support 5 major e-commerce networks
-* **Zero Manual Work**: Auto-convert all links
-* **Transparent**: Original message preserved
-* **Flexible**: Enable/disable per platform
+#### Amazon product information is not displayed
 
-### Setup Guide
+Product information depends on the Amazon link and the data provided by Amazon. Make sure the link is a valid product link.
 
-1. **Register Affiliate**: Sign up for affiliate program
-2. **Get ID/Tag**: Copy your affiliate identifier
-3. **Enable Platform**: Toggle switch ON
-4. **Enter ID**: Paste affiliate ID/tag
-5. **Save**: Tap "Save" button
-6. **Done**: All product links auto-converted
+### 7. Notes
+
+* Each platform has its own affiliate ID.
+* Do not use a Shop ID or Product ID instead of an Affiliate ID.
+* Copy the ID directly from your affiliate account to avoid mistakes.
+* Commission tracking depends on each affiliate platform’s policies.
 
