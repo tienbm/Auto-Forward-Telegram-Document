@@ -1,3 +1,7 @@
+---
+icon: key
+---
+
 # How to Get X API Key
 
 Use this guide to connect an **X** account to AutoForward. The current X Developer Console labels the credentials below under **OAuth 1.0 Keys**.

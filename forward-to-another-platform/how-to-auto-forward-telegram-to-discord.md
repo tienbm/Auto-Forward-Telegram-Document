@@ -1,3 +1,7 @@
+---
+icon: discord
+---
+
 # How to Auto Forward Telegram to Discord
 
 ### Overview

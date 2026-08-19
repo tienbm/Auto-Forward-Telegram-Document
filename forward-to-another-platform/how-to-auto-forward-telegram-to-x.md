@@ -1,3 +1,7 @@
+---
+icon: x
+---
+
 # How to Auto Forward Telegram to X
 
 ### Overview

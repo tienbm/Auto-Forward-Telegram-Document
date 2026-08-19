@@ -12,7 +12,7 @@ You do not need to configure every platform. Enable only the platforms you use.
 
 ### UI Structure
 
-<div><figure><img src="../.gitbook/assets/image (265).png" alt="" width="563"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (267).png" alt="" width="558"><figcaption></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/image (265).png" alt="" width="563"><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (267).png" alt="" width="558"><figcaption></figcaption></figure></div>
 
 ### 2. Supported Platforms
 
@@ -49,6 +49,14 @@ The Affiliate ID is:
 ```
 
 Do not include the `an_` prefix when the field requires a numeric Affiliate ID. This format is described in Shopee’s affiliate link guide. [View Shopee’s guide](https://help.shopee.co.id/portal/10/article/184879-\[Shopee-Affiliate-Program]-Pedoman-Pembuatan-Link-Pendek-Affiliate)
+
+{% hint style="info" %}
+#### Optional: Set Up Automatic Short URLs For Shopee URL
+
+Automatic short URL generation creates shortened links for Shopee affiliate URLs while your content is being processed. The feature uses a verified teleURL credential. [Checkout](set-up-automatic-short-urls-for-shopee-url.md)
+{% endhint %}
+
+<figure><img src="../../.gitbook/assets/image (289).png" alt=""><figcaption></figcaption></figure>
 
 ### 5. After Saving
 

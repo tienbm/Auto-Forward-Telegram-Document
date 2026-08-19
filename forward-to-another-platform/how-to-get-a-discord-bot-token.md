@@ -1,3 +1,7 @@
+---
+icon: key
+---
+
 # How to Get a Discord Bot Token
 
 ## How to Get a Discord Bot Token

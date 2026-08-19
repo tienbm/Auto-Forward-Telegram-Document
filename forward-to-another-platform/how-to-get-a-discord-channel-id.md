@@ -1,3 +1,7 @@
+---
+icon: key
+---
+
 # How to Get a Discord Channel ID
 
 #### 1. Get information channels Discord <a href="#id-1.-get-information-channels-discord" id="id-1.-get-information-channels-discord"></a>

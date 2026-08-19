@@ -1,4 +1,8 @@
-# VK Social Publisher
+---
+icon: vk
+---
+
+# How to Auto Forward Telegram to VK Social
 
 ### What it is
 

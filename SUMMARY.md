@@ -57,7 +57,8 @@
 * [Add Header / Footer](modify-content/add-header-footer.md)
 * [Translate Language](modify-content/translate-language.md)
 * [Add Watermark](modify-content/add-watermark.md)
-* [Replace Affiliate Marketing](modify-content/replace-affiliate-marketing.md)
+* [Replace Affiliate Marketing](modify-content/replace-affiliate-marketing/README.md)
+  * [Set Up Automatic Short URLs For Shopee URL](modify-content/replace-affiliate-marketing/set-up-automatic-short-urls-for-shopee-url.md)
 
 ## Filters
 
@@ -92,6 +93,7 @@
 
 ## Forward To Another Platform
 
+* [How to Auto Forward Telegram to Email](forward-to-another-platform/how-to-auto-forward-telegram-to-email.md)
 * [How to Auto Forward Telegram to X](forward-to-another-platform/how-to-auto-forward-telegram-to-x.md)
 * [How to Auto Forward Telegram to Discord](forward-to-another-platform/how-to-auto-forward-telegram-to-discord.md)
 * [How to Auto Forward Telegram to VK Social](forward-to-another-platform/how-to-auto-forward-telegram-to-vk-social.md)
