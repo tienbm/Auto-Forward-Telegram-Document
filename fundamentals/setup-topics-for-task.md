@@ -18,8 +18,8 @@ This feature is help **Forward Channel/Group/User to one or more Topics in Group
 {% hint style="info" %}
 **How to get SOURCE\_CHAT\_ID and TARGET\_CHAT\_ID?**
 
-* This commands needs input from the [**/getchanel**](../guides/get-information-channels-groups-your-account.md) or [**/getgroup**](../guides/get-information-channels-groups-your-account.md) or [**/getuser**](../guides/get-information-channels-groups-your-account.md)
-* You can only use source and target id's you find via [**/getchanel**](../guides/get-information-channels-groups-your-account.md) or [**/getgroup**](../guides/get-information-channels-groups-your-account.md) or [**/getuser**](../guides/get-information-channels-groups-your-account.md)
+* This commands needs input from the [**/getchanel**](/broken/pages/gR5MfO1FRka85yLhivXF) or [**/getgroup**](/broken/pages/gR5MfO1FRka85yLhivXF) or [**/getuser**](/broken/pages/gR5MfO1FRka85yLhivXF)
+* You can only use source and target id's you find via [**/getchanel**](/broken/pages/gR5MfO1FRka85yLhivXF) or [**/getgroup**](/broken/pages/gR5MfO1FRka85yLhivXF) or [**/getuser**](/broken/pages/gR5MfO1FRka85yLhivXF)
 {% endhint %}
 
 {% tabs %}

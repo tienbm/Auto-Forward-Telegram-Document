@@ -1,4 +1,8 @@
-# 💸 Affiliate Monetization
+---
+icon: sack-dollar
+---
+
+# Replace Affiliate Marketing
 
 ### 1. What is Affiliate Monetization?
 
@@ -8,7 +12,7 @@ You do not need to configure every platform. Enable only the platforms you use.
 
 ### UI Structure
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<div><figure><img src="../.gitbook/assets/image (265).png" alt="" width="563"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (267).png" alt="" width="558"><figcaption></figcaption></figure></div>
 
 ### 2. Supported Platforms
 

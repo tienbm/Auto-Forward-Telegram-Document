@@ -4,7 +4,7 @@ description: >-
   full-featured access — no coding required.
 ---
 
-# 🔄 How to connect BOT?
+# 🌐 How to connect AutoForward Telegram BOT?
 
 {% hint style="success" %}
 ### **Download Mobile App or use Web**

@@ -2,7 +2,7 @@
 description: Join Our Lucrative Affiliate Program
 ---
 
-# 💰 Make Money
+# 🤝 Affiliate Program With Auto Forward
 
 {% tabs %}
 {% tab title="Command" %}
@@ -13,8 +13,6 @@ description: Join Our Lucrative Affiliate Program
 {% endcode %}
 
 🌟 Copy your Affiliate Link and invite friends to earn money
-
-
 {% endtab %}
 {% endtabs %}
 
@@ -48,4 +46,4 @@ Welcome to our exciting affiliate program, where you have the fantastic opportun
 
 💼 Join Now and Start Earning: Ready to embark on your journey to financial success? Join our affiliate program today and watch your earnings soar! 🚀🎉 Remember, your success is our success, and we are thrilled to have you as part of our affiliate family. Happy earning! 🌟💰
 
-<figure><img src=".gitbook/assets/ezgif-5-c076ab427e.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/ezgif-5-c076ab427e.gif" alt=""><figcaption></figcaption></figure>

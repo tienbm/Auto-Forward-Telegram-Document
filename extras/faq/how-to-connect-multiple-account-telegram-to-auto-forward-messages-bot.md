@@ -11,6 +11,6 @@
 <figure><img src="../../.gitbook/assets/image (176).png" alt=""><figcaption></figcaption></figure>
 
 3. After Login Success, Find [BOT Auto Forward Telegram](https://t.me/Auto_Forward_Messages_Bot) on new account
-4. Use command [/connect](../../guides/how-to-connect.md)
+4. Use command [/connect](/broken/pages/OpRt6d1kzjyB175AXsll)
 
 {% embed url="https://youtu.be/bYnmwguKJtY" %}

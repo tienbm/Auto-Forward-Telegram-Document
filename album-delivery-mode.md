@@ -10,9 +10,11 @@ Higher modes are better suited to large or irregular albums, but the album may b
 
 ### How to change the mode
 
+<div><figure><img src=".gitbook/assets/image (263).png" alt="" width="361"><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/image (264).png" alt=""><figcaption></figcaption></figure></div>
+
 Go to:
 
-`Task Details → Edit Task → Advanced Settings → Album Delivery Mode`
+`Forward Task Details → Edit Task → Advanced Settings → Album Delivery Mode`
 
 Select one mode. The setting is saved automatically.
 

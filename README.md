@@ -10,6 +10,7 @@ layout:
   cover:
     visible: true
     size: hero
+    mask: none
   title:
     visible: true
   description:
@@ -42,6 +43,6 @@ In this documentation you will find every **Auto Forward Messages BOT** command 
 ✅ Web: [Use on Browser](https://web.autoforwardtelegram.com/)
 
 {% hint style="warning" %}
-This bot works by acting as you. You have to login using your Telegram number and login code to the program [(Connect First)](guides/how-to-connect-bot.md). Once you have logged in, you will be able to specify which chat you want to copy messages from, and where you want to copy these messages to.
+This bot works by acting as you. You have to login using your Telegram number and login code to the program [(Connect First)](guides/how-to-connect-autoforward-telegram-bot.md). Once you have logged in, you will be able to specify which chat you want to copy messages from, and where you want to copy these messages to.
 {% endhint %}
 

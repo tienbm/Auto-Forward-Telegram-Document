@@ -4,10 +4,13 @@
 
 * [😍 Welcome to Auto Forward Messages Telegram Bot!](README.md)
 * [💡 Commands Arguments Meaning](guides/commands-arguments-meaning.md)
-* [📶 How to connect?](guides/how-to-connect.md)
-* [🔄 How to connect BOT?](guides/how-to-connect-bot.md)
-* [ℹ️ Get information channels, groups, your account](guides/get-information-channels-groups-your-account.md)
+* [🌐 How to connect AutoForward Telegram BOT?](guides/how-to-connect-autoforward-telegram-bot.md)
 * [📝 How To Create Task Auto Forward ?](guides/how-to-create-task-auto-forward.md)
+
+## Affliate
+
+* [🎁 Earn Free Credits to Upgrade](affliate/earn-free-credits-to-upgrade.md)
+* [🤝 Affiliate Program With Auto Forward](affliate/affiliate-program-with-auto-forward.md)
 
 ## Genearal
 
@@ -54,7 +57,7 @@
 * [Add Header / Footer](modify-content/add-header-footer.md)
 * [Translate Language](modify-content/translate-language.md)
 * [Add Watermark](modify-content/add-watermark.md)
-* [💸 Affiliate Monetization](modify-content/affiliate-monetization.md)
+* [Replace Affiliate Marketing](modify-content/replace-affiliate-marketing.md)
 
 ## Filters
 
@@ -125,11 +128,9 @@
 * [🌀 Replace (Without Commands): Create And Management](fundamentals/replace-without-commands-create-and-management.md)
 * [©️ Clone Message](fundamentals/clone-message.md)
 * [🦸 Profile Settings](fundamentals/profile-settings.md)
-* [🎁 Reward Center](fundamentals/reward-center.md)
 
 ***
 
-* [💰 Make Money](make-money.md)
 * [🆓 Auto Forward Messages has a free version ?](auto-forward-messages-has-a-free-version.md)
 * [🦸 Upgrade Plans Package](upgrade-plans-package.md)
 * [⏫ Upgrade Plan via Android/IOS App](upgrade-plan-via-android-ios-app.md)
