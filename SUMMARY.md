@@ -57,8 +57,8 @@
 * [Add Header / Footer](modify-content/add-header-footer.md)
 * [Translate Language](modify-content/translate-language.md)
 * [Add Watermark](modify-content/add-watermark.md)
-* [Replace Affiliate Marketing](modify-content/replace-affiliate-marketing/README.md)
-  * [Set Up Automatic Short URLs For Shopee URL](modify-content/replace-affiliate-marketing/set-up-automatic-short-urls-for-shopee-url.md)
+* [Replace Affiliate Marketing Amazon,Shopee, Awin, eBay, Ali,..](modify-content/replace-affiliate-marketing-amazon-shopee-awin-ebay-ali-../README.md)
+  * [Set Up Automatic Short URLs For Shopee URL](modify-content/replace-affiliate-marketing-amazon-shopee-awin-ebay-ali-../set-up-automatic-short-urls-for-shopee-url.md)
 
 ## Filters
 
