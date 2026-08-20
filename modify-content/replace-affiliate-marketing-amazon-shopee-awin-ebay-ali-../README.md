@@ -2,7 +2,7 @@
 icon: sack-dollar
 ---
 
-# Replace Affiliate Marketing
+# Replace Affiliate Marketing Amazon,Shopee, Awin, eBay, Ali,..
 
 ### 1. What is Affiliate Monetization?
 
@@ -35,6 +35,8 @@ You do not need to configure every platform. Enable only the platforms you use.
 7. Tap **Save**.
 
 ### 4. How to Find Your Shopee Affiliate ID
+
+{% embed url="https://youtu.be/QRyj6Ye5los" %}
 
 Some Shopee links contain the affiliate ID in this format:
 
