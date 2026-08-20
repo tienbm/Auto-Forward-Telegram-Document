@@ -4,13 +4,11 @@ icon: envelope
 
 # How to Auto Forward Telegram to Email
 
-{% embed url="https://youtu.be/WGN_kvynF7s" %}
-
 AutoForward can send new messages from Telegram to an email address automatically.
 
 The feature is configured from **Publish**. You connect an email account once, choose the Telegram sources to monitor, enter the recipient email address, and create a Publish Task.
 
-<figure><img src="../.gitbook/assets/image (268).png" alt="" width="497"><figcaption></figcaption></figure>
+{% embed url="https://youtu.be/WGN_kvynF7s" %}
 
 ### What you need
 
@@ -40,6 +38,9 @@ Email Publish:
 ### Step 1: Open Publish
 
 1. Open AutoForward.
+
+<figure><img src="../.gitbook/assets/image (268).png" alt="" width="497"><figcaption></figcaption></figure>
+
 2. Open **Publish**.
 3. Tap or click **Create Publish Task**.
 
