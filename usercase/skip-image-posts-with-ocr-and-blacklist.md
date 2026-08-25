@@ -19,6 +19,8 @@ For example, you can detect the English word `PROMOTION` and skip any post whose
 
 Posts without the keyword continue through the forwarding workflow.
 
+{% embed url="https://youtu.be/4BGoh7sRShU" %}
+
 ### Before you start
 
 * Create or open the forwarding task that contains the source and destination chats.
