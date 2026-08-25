@@ -21,6 +21,10 @@ For example, a token with sufficient liquidity and volume, a favorable buyer-to-
 `PASS` only means that the message passed the data rules configured in the prompt. It is not a guarantee that the token is safe, a price prediction, or investment advice.
 {% endhint %}
 
+
+
+{% embed url="https://youtu.be/aICWk9tAhms" %}
+
 ### Before you start
 
 * Create or open a forwarding task with the correct **source chat** and **destination chat**.
