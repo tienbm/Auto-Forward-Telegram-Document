@@ -114,7 +114,7 @@
 ## Usercase
 
 * [Automatically Skip Telegram Posts with Image Keywords Using OCR AI](usercase/automatically-skip-telegram-posts-with-image-keywords-using-ocr-ai.md)
-* [Use Smart AI Rewrite to Evaluate Token Alerts](usercase/use-smart-ai-rewrite-to-evaluate-token-alerts.md)
+* [AI Crypto Token Filter: Smart AI Rewrite Demo (PASS vs REJECT)](usercase/ai-crypto-token-filter-smart-ai-rewrite-demo-pass-vs-reject.md)
 
 ## Fundamentals
 
