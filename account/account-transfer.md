@@ -18,6 +18,8 @@ This opens the Account Transfer flow where you can review the transfer requireme
 
 ### How to use it
 
+<figure><img src="../.gitbook/assets/image (290).png" alt=""><figcaption></figcaption></figure>
+
 1. Go to **Home**.
 2. Open the **Profile** tab.
 3. Tap **Account Transfer**.
