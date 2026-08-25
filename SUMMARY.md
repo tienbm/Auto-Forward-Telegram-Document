@@ -22,6 +22,7 @@
 ## Addons
 
 * [What is Addons ?](addons/what-is-addons.md)
+* [Pinned Message Forwarding](addons/pinned-message-forwarding.md)
 * [Keyword Confirmation](addons/keyword-confirmation.md)
 * [Smart Image Crop](addons/smart-image-crop.md)
 * [Auto Clone Button](addons/auto-clone-button.md)
