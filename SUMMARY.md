@@ -111,6 +111,10 @@
 
 * [Account Transfer](account/account-transfer.md)
 
+## Usercase
+
+* [Skip Image Posts with OCR and Blacklist](usercase/skip-image-posts-with-ocr-and-blacklist.md)
+
 ## Fundamentals
 
 * [Debug Mode For Task](fundamentals/debug-mode-for-task.md)
