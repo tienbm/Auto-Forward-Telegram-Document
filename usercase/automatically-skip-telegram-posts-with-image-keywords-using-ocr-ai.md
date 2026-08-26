@@ -4,7 +4,15 @@ description: >-
   the message content, and use Blacklist to skip the post automatically.
 ---
 
-# Skip Image Posts with OCR and Blacklist
+# Automatically Skip Telegram Posts with Image Keywords Using OCR AI
+
+{% hint style="info" %}
+### **Download Mobile App or use Web**
+
+✅ **iOS** → [App Store](https://apps.apple.com/us/app/autoforward-for-telegram/id6447486093)\
+✅ **Android** → [Google Play](https://play.google.com/store/apps/details?id=com.autoforward.telegramforward)\
+✅ **Web** → [web.autoforwardtelegram.com](https://web.autoforwardtelegram.com/)
+{% endhint %}
 
 ### What does this feature do?
 

@@ -4,6 +4,14 @@ icon: user-robot
 
 # Clone Messages with a Telegram Bot
 
+{% hint style="info" %}
+### **Download Mobile App or use Web**
+
+✅ **iOS** → [App Store](https://apps.apple.com/us/app/autoforward-for-telegram/id6447486093)\
+✅ **Android** → [Google Play](https://play.google.com/store/apps/details?id=com.autoforward.telegramforward)\
+✅ **Web** → [web.autoforwardtelegram.com](https://web.autoforwardtelegram.com/)
+{% endhint %}
+
 ### Overview
 
 Clone Bot Sender lets a Clone Profile send cloned messages through a Telegram bot instead of your personal Telegram account.

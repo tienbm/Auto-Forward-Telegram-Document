@@ -4,6 +4,14 @@ icon: images
 
 # Album Delivery Mode
 
+{% hint style="info" %}
+### **Download Mobile App or use Web**
+
+✅ **iOS** → [App Store](https://apps.apple.com/us/app/autoforward-for-telegram/id6447486093)\
+✅ **Android** → [Google Play](https://play.google.com/store/apps/details?id=com.autoforward.telegramforward)\
+✅ **Web** → [web.autoforwardtelegram.com](https://web.autoforwardtelegram.com/)
+{% endhint %}
+
 Album Delivery Mode lets you choose how photo and video albums are handled before forwarding.
 
 Higher modes are better suited to large or irregular albums, but the album may be sent later. No mode guarantees complete delivery.

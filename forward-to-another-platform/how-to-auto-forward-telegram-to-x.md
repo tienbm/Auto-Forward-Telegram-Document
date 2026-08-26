@@ -4,209 +4,254 @@ icon: x
 
 # How to Auto Forward Telegram to X
 
-### Overview
+{% hint style="info" %}
+### **Download Mobile App or use Web**
 
-X Publisher automatically forwards content from Telegram to X.
+✅ **iOS** → [App Store](https://apps.apple.com/us/app/autoforward-for-telegram/id6447486093)\
+✅ **Android** → [Google Play](https://play.google.com/store/apps/details?id=com.autoforward.telegramforward)\
+✅ **Web** → [web.autoforwardtelegram.com](https://web.autoforwardtelegram.com/)
+{% endhint %}
 
-Set it up once. The system monitors a Telegram source and publishes content to X.
+AutoForward can take new messages from one or more Telegram channels or groups and publish them automatically to an X account. You only need to connect the X account once, create a **Publish Task**, and send a test message.
 
-This feature is useful when you want to:
+In AutoForward, this feature is available under **Publish** and is managed through **Publish Tasks**.
 
-* Sync announcements from Telegram to X to keep your social channels active
-* Automate operations when your team uses Telegram as the main content source
-* Reduce repetitive manual work across publishing channels
 
-<figure><img src="../.gitbook/assets/image (258).png" alt="" width="424"><figcaption></figcaption></figure>
 
-***
+<figure><img src="../.gitbook/assets/image (302).png" alt="" width="492"><figcaption></figcaption></figure>
 
-### Where is this feature?
+### How it works
 
-You can open it from:
+```
+Telegram source(s) → AutoForward Publish Task → X account
+```
 
-1. Go to **Home**
-2. Tap **Publish**
-3. You will see the **Publish Task** area
+The Publish Task uses the Telegram sources you select and processes **new messages** after the task is created. Older messages are not automatically reposted.
 
-This area includes four main parts:
+### Before you start
 
-* **Publish List**: shows all publish tasks you have created
-* **Platform Accounts**: manages X accounts used for publishing
-* **Create Publish Task**: creates a publishing flow from Telegram to X
-* **Publish Detail**: monitors task status, edits configuration, and starts or stops tasks
+Prepare the following:
 
-***
+* An AutoForward account that is signed in and connected to Telegram.
+* Access to the Telegram channel or group you want to monitor.
+* An active **External Publish** addon. If the addon is not unlocked, AutoForward shows the unlock flow when you select **Publish**.
+* The X account that will publish the posts.
+* An X App and four OAuth 1.0 credentials from that same App: **Consumer Key**, **Consumer Secret**, **Access Token**, and **Access Token Secret**.
 
-### What is it used for?
+### 1. Prepare your X credentials
 
-X Publisher uses Telegram as your **content source**. It publishes that content to X automatically.
+The credentials must come from the same X App, and the Access Token must belong to the X account that will publish the posts.
 
-This is useful when you want to:
+1. Open the [X Developer Console](https://console.x.com/) and sign in with the X account that will publish the posts.
+2. Create an App or select an existing App.
+3. In the App permissions, select **Read and write** before generating the Access Token.
+4. Open **Apps → select your App → Keys & Tokens**.
+5. Under **OAuth 1.0 Keys**, copy:
+   * **Consumer Key** (also called the API Key).
+   * **Consumer Secret** (also called the API Secret).
+   * **Access Token**.
+   * **Access Token Secret**.
 
-* Repost Telegram content to your project or brand's X account
-* Maintain a steady posting flow on X without manual posting
-* Use Telegram as the editorial source while X becomes the public distribution channel
+If X shows **Regenerate** instead of **Generate**, the new value replaces the old one. Update the matching value in AutoForward after regenerating it.
 
-***
+<figure><img src="../.gitbook/assets/image (304).png" alt=""><figcaption></figcaption></figure>
 
-### Main features
+{% hint style="warning" %}
+Do not use a **Bearer Token**, **Client ID**, **Client Secret**, or OAuth 2.0 Access Token in place of the four OAuth 1.0 values above. Treat every credential as a password and never share it in screenshots or support messages.
+{% endhint %}
 
-#### 1. Platform account management
+For a detailed credential guide, see How to Get X Credentials.
 
-You can add and manage separate accounts used for publishing.
+### 2. Open Publish
 
-**X Account**
+1. Open AutoForward and go to **Home**.
+2. Select **Publish**.
+3. On the Publish Tasks list, select **Manage Accounts** to open **Platform Accounts**.
+4. Select **Add Account**.
 
-To connect X, you need:
+If **External Publish** is not active, complete the addon unlock flow and return to **Publish**.
 
-* API Key
-* API Secret
-* Access Token
-* Access Secret
+<figure><img src="../.gitbook/assets/image (305).png" alt=""><figcaption></figcaption></figure>
 
-After adding an account, you can:
+### 3. Connect your X account to AutoForward
 
-* Verify the connection
-* Edit credentials
-* Delete accounts you no longer use
+In the account form:
 
-Related documents:
+1. Under **Select Platform**, choose **X (Twitter)**.
+2. Enter an **Account Name**, for example `Brand X`.
+3.  Enter the four values copied from the X Developer Console:
 
-* [How to Get X API Key](how-to-get-x-api-key.md)
+    | AutoForward field       | Value to enter                                       |
+    | ----------------------- | ---------------------------------------------------- |
+    | **Consumer Key**        | The Consumer Key from your X App                     |
+    | **Consumer Secret**     | The Consumer Secret from your X App                  |
+    | **Access Token**        | The Access Token for the X account that will publish |
+    | **Access Token Secret** | The Access Token paired with that Access Token       |
+4. Select **Save**.
 
-***
+AutoForward verifies the connection. The account is ready when it shows **Connected**. If it is not connected, open the account actions and select **Verify Connection** after checking the four values.
 
-#### 2. Create a Publish Task from Telegram
+<figure><img src="../.gitbook/assets/image (306).png" alt=""><figcaption></figcaption></figure>
 
-Each Publish Task is its own publishing configuration.
+You can also add the account directly from the task wizard by selecting **Add connection** on the **Connection** step.
 
-When creating a task, you can define:
+### 4. Create a Publish Task for X
 
-* A **task name** for easier management
-* A **Telegram source** such as a channel or group to monitor
-* A connected **X account**
+Return to the Publish Tasks list and select **Create Publish Task**. AutoForward opens a four-step wizard.
 
-***
+#### Step 1 — Choose a provider
 
-#### 3. Track Telegram changes
+1. On the **Provider** step, select **X**.
 
-A Publish Task does not only process new messages. It also supports options related to changes from the Telegram source:
+<figure><img src="../.gitbook/assets/image (307).png" alt=""><figcaption></figcaption></figure>
 
-* **Include edited messages**
-* **Include deleted messages**
+2. Select **Next**.
 
-This is useful when you want the destination platform to stay aligned with the latest state of the original Telegram content.
+<figure><img src="../.gitbook/assets/image (308).png" alt=""><figcaption></figcaption></figure>
 
-***
+#### Step 2 — Choose the X connection
 
-#### 4. Customize content before publishing
+1. On the **Connection** step, select an X account with the **Connected** status.
+2. If no account is available, select **Add connection**, enter the credentials, and save them.
+3. After the account is verified, select **Next**.
 
-Before content is published to X, you can configure:
+Only connected accounts can be selected for a Publish Task.
 
-* **Header**: adds text at the beginning of the post
-* **Footer**: adds text at the end of the post
+#### Step 3 — Choose Telegram sources
 
-Examples:
+1. On the **Source and recipient** step, select **Tap to select source**.
+2. Select one or more Telegram channels or groups to monitor.
+3. Check that the selected sources appear in the list.
+4. Select **Next**.
 
-* Add a source label at the top of each post
-* Insert a follow reminder at the bottom
-* Standardize formatting before sending content to another platform
+For X, you do not need to enter a Channel ID or recipient address. The X account selected on the **Connection** step is the publishing destination.
 
-***
+<figure><img src="../.gitbook/assets/image (309).png" alt=""><figcaption></figcaption></figure>
 
-#### 5. Schedule publishing
+#### Optional advanced settings
 
-You can use scheduling to control when content is published.
+On the source step, open **Advanced Settings** if you want to change how content is handled:
 
-This is useful when you want to:
+* **Edit**: process changes made to source messages.
+* **Delete**: process source message deletion events.
+* **Add Header** or **Add Footer**: add fixed text to each post.
+* **Auto Post Scheduler**: configure a posting schedule if you do not want to use the default setup.
+* **Retry on Rate Limit** and **Skip on Error**: help the task handle X rate limits or individual message errors.
 
-* Avoid publishing immediately when a Telegram message arrives
-* Run publishing on a specific operational schedule
-* Re-post content according to the task's schedule settings
+If this is your first setup, you can keep the default options and create the task first. You can edit these options later.
 
-In the current app flow, this is opened through **Auto Post Schedule** in the create form or in Publish Detail.
+#### Step 4 — Review and create the task
 
-***
+1. On the **Review** step, enter a recognizable **Task Name**, for example `Telegram News to X`.
+2. Check the following:
+   * **Provider**: X.
+   * **Connection**: the correct X account.
+   * **Select Source**: the correct Telegram channels or groups.
+   * **Target**: the selected X account.
+   * **New messages only**: the task starts processing messages created after the task is created.
+3. Select **Create Publish Task**.
 
-#### 6. Delivery and error handling options
+<figure><img src="../.gitbook/assets/image (310).png" alt=""><figcaption></figcaption></figure>
 
-To make publishing more stable, the task supports a few delivery-related options:
+### 5. Check that the task is running
 
-* **Retry on rate limit**
-* **Skip on error so the task can continue running**
+After creation, AutoForward opens the Publish Task detail screen.
 
-These settings are especially useful if you publish frequently or operate multiple publish tasks at the same time.
+1. Check that the status is **Running**.
+2. Send a harmless test message to one of the selected Telegram sources.
+3. Open the X account and confirm that the post appears.
 
-***
+New tasks are created in an active state. If the task shows **Stopped**, select **Start Publish** and send a new test message.
 
-#### 7. Task status management
+<figure><img src="../.gitbook/assets/image (311).png" alt=""><figcaption></figcaption></figure>
 
-After a task is created, you can open its detail screen to:
+### Manage the Publish Task
 
-* View task status
-* **Start Publish**
-* **Stop Publish**
-* Edit the task
-* Delete the task
+#### Edit the task
 
-This gives you direct control over each publishing flow based on your operational needs.
+1. Open the task from the Publish Tasks list.
+2. Select the edit icon or **Edit Publish Task**.
+3. Change the source, X account, advanced options, or task name.
+4. Select **Update**.
 
-***
+#### Stop or start the task
 
-### Quick start flow
+* **Stop Publish**: pauses the task; it does not publish messages while stopped.
+* **Start Publish**: starts the task again.
 
-If you want to start quickly, follow this order:
+Stopping a task does not remove the connected X account.
 
-1. Open **Home → Publish**
-2. Go to **Platform Accounts**
-3. Add an **X** account
-4. Verify the account connection
-5. Create a new **Publish Task**
-6. Select the Telegram source
-7. Select the destination account
-8. Configure Header, Footer, or scheduling if needed
-9. Save the task and tap **Start Publish**
+#### Delete the task
 
-***
+1. Open the task detail screen.
+2. Open the actions menu and select **Delete**.
+3. Confirm the deletion.
 
-### When should you use this feature?
+This removes only the Publish Task from AutoForward. It does not delete the X App or the X account.
 
-#### Use case 1: Repost project announcements to X
+#### Update X credentials
 
-If your Telegram channel is your official announcement source, you can create a Publish Task to automatically repost those updates to your X account instead of copying them manually.
+If you regenerate a key or token on X, or X reports that a credential is invalid:
 
-#### Use case 2: Separate editorial source and distribution channel
+1. Open **Publish → Manage Accounts**.
+2. Open the X account menu and select **Edit**. On some layouts, the action is shown as **Edit Account**.
+3. Enter the new credentials. Secret fields may not be pre-filled.
+4. Select **Save** and wait for the **Connected** status.
 
-Your content team can work in Telegram. Publish Tasks then distribute content to X automatically.
+Do not delete the external X account when you only need to replace its credentials in AutoForward. Deleting the platform account in AutoForward removes only the saved connection; Publish Tasks using that connection may stop working.
 
-***
+### Common statuses
 
-### Important notes
+| Status or action       | Meaning                                                              | What to do                                                                |
+| ---------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| **Connected**          | The X credentials have been verified and can be selected for a task. | Continue creating or running the task.                                    |
+| **Verify Connection**  | The X account has not completed a successful connection check.       | Check the four credentials and select **Verify Connection**.              |
+| **Running**            | The Publish Task is monitoring the source and publishing messages.   | Send a new message to test it.                                            |
+| **Stopped**            | The Publish Task is paused.                                          | Select **Start Publish** to run it again.                                 |
+| **Reconnect required** | The connection selected for the task is not ready.                   | Select **Reconnect connection**, enter new credentials, and verify again. |
 
-* This feature requires the **External Publish** addon to be active
-* X accounts should be **verified successfully** before using them in a task
-* If you edit or delete a platform account, tasks using that account may stop working
-* Use clear task names if you manage multiple publishing flows
+### Troubleshooting
 
-***
+#### The X account is not listed on the Connection step
 
-### Recommended usage tips
+Only accounts with the **Connected** status can be selected. Open **Platform Accounts**, refresh the list, and verify the X account. If it is still missing, confirm that all four values came from the same X App.
 
-* Use **one task for one clear purpose**, for example: Telegram News → X
-* Verify account connections before enabling a production task
-* If you want consistent formatting, configure Header and Footer early
-* If you run multiple publish flows, use a consistent task naming pattern for easier management
+#### X reports invalid credentials
 
-***
+Check the following:
 
-### Summary
+1. **Consumer Key** and **Consumer Secret** come from the correct X App.
+2. **Access Token** and **Access Token Secret** belong to the X account that should publish.
+3. The X App has **Read and write** permission.
+4. You did not paste a Bearer Token, Client ID, Client Secret, or OAuth 2.0 Access Token by mistake.
+5. If you changed permissions or regenerated a credential, update the Access Token pair in AutoForward.
 
-X Publisher turns Telegram into a central publishing source for X.
+#### The task was created but no post appears on X
 
-This feature helps you:
+1. Check that the task status is **Running**.
+2. Send a new message after the task was created; older messages are not automatically reposted.
+3. Confirm that the message was sent to one of the selected Telegram sources.
+4. Check that the X account still shows **Connected**.
+5. Confirm that the X App still has posting permission and access to the required API.
 
-* Repost Telegram content to social media
-* Automate Telegram-to-X publishing
-* Reduce manual work and improve operational consistency
+#### The task was stopped and needs to run again
 
-When configured properly, it keeps your X account active without extra manual work.
+Open the task detail screen, select **Start Publish**, wait for the status to change to **Running**, and send a new test message.
+
+### Frequently asked questions
+
+#### Can one task monitor multiple Telegram sources?
+
+Yes. On the **Source and recipient** step, you can select multiple Telegram channels or groups in the same Publish Task.
+
+#### Does AutoForward repost messages that existed before the task was created?
+
+No. This flow starts with new messages after the task is created. Edits or deletion events are processed only when the corresponding options are enabled in **Advanced Settings**.
+
+#### Does stopping a task remove the X account?
+
+No. **Stop Publish** pauses only the task. The X connection remains saved under **Platform Accounts**.
+
+#### Does deleting a task delete the X App?
+
+No. Deleting a task removes only the Publish Task configuration in AutoForward. The external X App and X account are not deleted.

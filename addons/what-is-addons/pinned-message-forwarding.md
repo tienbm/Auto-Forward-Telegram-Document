@@ -26,12 +26,12 @@ This add-on **does not renew automatically**. After 30 days, you can purchase it
 3. Open **Add-ons**.
 4. Select **Pinned Message Forwarding**.
 
-<figure><img src="../.gitbook/assets/image (291).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (291).png" alt=""><figcaption></figcaption></figure>
 
 5. Purchase and enable the add-on.
 6. Optional: Enable **Ignore messages sent by bots** if you do not want to forward messages originally posted by bots.
 
-<figure><img src="../.gitbook/assets/image (292).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (292).png" alt=""><figcaption></figcaption></figure>
 
 After it is enabled, the add-on starts monitoring pin actions in the selected source chats.
 

@@ -4,6 +4,14 @@ icon: sack-dollar
 
 # Replace Affiliate Marketing Amazon,Shopee, Awin, eBay, Ali,..
 
+{% hint style="info" %}
+### **Download Mobile App or use Web**
+
+✅ **iOS** → [App Store](https://apps.apple.com/us/app/autoforward-for-telegram/id6447486093)\
+✅ **Android** → [Google Play](https://play.google.com/store/apps/details?id=com.autoforward.telegramforward)\
+✅ **Web** → [web.autoforwardtelegram.com](https://web.autoforwardtelegram.com/)
+{% endhint %}
+
 ### 1. What is Affiliate Monetization?
 
 Affiliate Monetization automatically processes affiliate links when forwarding messages. Enter your affiliate ID for each platform, and the system will automatically replace the corresponding tracking ID in supported links.

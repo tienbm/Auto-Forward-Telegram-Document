@@ -4,6 +4,14 @@ icon: puzzle
 
 # Keyword Confirmation
 
+{% hint style="info" %}
+### **Download Mobile App or use Web**
+
+✅ **iOS** → [App Store](https://apps.apple.com/us/app/autoforward-for-telegram/id6447486093)\
+✅ **Android** → [Google Play](https://play.google.com/store/apps/details?id=com.autoforward.telegramforward)\
+✅ **Web** → [web.autoforwardtelegram.com](https://web.autoforwardtelegram.com/)
+{% endhint %}
+
 ### 1. Overview
 
 The Signal Confirmation add-on allows a task to forward a message only after its content has received enough confirmations based on configured words or hashtags.

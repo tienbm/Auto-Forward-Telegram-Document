@@ -5,7 +5,15 @@ description: >-
   forwarding or review step.
 ---
 
-# Use Smart AI Rewrite to Evaluate Token Alerts
+# AI Crypto Token Filter: Smart AI Rewrite Demo (PASS vs REJECT)
+
+{% hint style="info" %}
+### **Download Mobile App or use Web**
+
+✅ **iOS** → [App Store](https://apps.apple.com/us/app/autoforward-for-telegram/id6447486093)\
+✅ **Android** → [Google Play](https://play.google.com/store/apps/details?id=com.autoforward.telegramforward)\
+✅ **Web** → [web.autoforwardtelegram.com](https://web.autoforwardtelegram.com/)
+{% endhint %}
 
 ### What does this feature do?
 

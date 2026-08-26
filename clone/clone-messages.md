@@ -10,9 +10,9 @@ The Clone Profile flow has been improved to make it easier to create, open, revi
 
 This update focuses on smoother navigation, better list synchronization, and clearer handling when some cloned messages are still missing.
 
-### Where to find it
+{% hint style="info" %}
+### **Download Mobile App or use Web**
 
-{% hint style="success" %}
 ✅ **iOS** → [App Store](https://apps.apple.com/us/app/autoforward-for-telegram/id6447486093)\
 ✅ **Android** → [Google Play](https://play.google.com/store/apps/details?id=com.autoforward.telegramforward)\
 ✅ **Web** → [web.autoforwardtelegram.com](https://web.autoforwardtelegram.com/)
