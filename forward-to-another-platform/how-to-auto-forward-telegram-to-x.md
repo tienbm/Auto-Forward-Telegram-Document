@@ -28,6 +28,8 @@ Telegram source(s) → AutoForward Publish Task → X account
 
 The Publish Task uses the Telegram sources you select and processes **new messages** after the task is created. Older messages are not automatically reposted.
 
+{% embed url="https://youtu.be/KajA5tPewnc" %}
+
 ### Before you start
 
 Prepare the following:
@@ -44,23 +46,33 @@ The credentials must come from the same X App, and the Access Token must belong 
 
 1. Open the [X Developer Console](https://console.x.com/) and sign in with the X account that will publish the posts.
 2. Create an App or select an existing App.
-3. In the App permissions, select **Read and write** before generating the Access Token.
-4. Open **Apps → select your App → Keys & Tokens**.
-5. Under **OAuth 1.0 Keys**, copy:
-   * **Consumer Key** (also called the API Key).
-   * **Consumer Secret** (also called the API Secret).
-   * **Access Token**.
-   * **Access Token Secret**.
-
-If X shows **Regenerate** instead of **Generate**, the new value replaces the old one. Update the matching value in AutoForward after regenerating it.
 
 <figure><img src="../.gitbook/assets/image (304).png" alt=""><figcaption></figcaption></figure>
+
+1. Open your App's **Settings** and go to **Authentication settings**.
+
+<figure><img src="../.gitbook/assets/image (312).png" alt=""><figcaption></figcaption></figure>
+
+1. Under **App permissions**, select **Read and write**. This permission is required for AutoForward to publish posts.
+2. Under **Type of App**, select **Web App, Automated App or Bot** for the automated publishing flow.
+3. Under **App info**, complete every required field, including **Callback URI / Redirect URL**, then save the settings. Use the callback or redirect URL configured for your App; do not leave any required field blank.
+
+<figure><img src="../.gitbook/assets/image (313).png" alt=""><figcaption></figcaption></figure>
+
+1. Return to **Apps → select your App → Keys & Tokens**.
+2. Under **OAuth 1.0 Keys**, create fresh credentials after saving the settings:
+   * Next to **Consumer Key**, select **Regenerate** and copy the new **Consumer Key**. Keep the **Consumer Secret** from the same App; if X replaces it during regeneration, copy the new value as well.
+   * Next to **Access Token**, select **Generate**. Confirm that the token is for the X account that will publish and shows **Read and write**, then copy the **Access Token** and **Access Token Secret**.
+
+<figure><img src="../.gitbook/assets/image (314).png" alt=""><figcaption></figcaption></figure>
+
+1. In AutoForward, enter the four current values: **Consumer Key**, **Consumer Secret**, **Access Token**, and **Access Token Secret**.
+
+If X shows **Regenerate** instead of **Generate**, use **Regenerate** to create a fresh value. A regenerated credential replaces the old one, so update the matching value in AutoForward immediately.
 
 {% hint style="warning" %}
 Do not use a **Bearer Token**, **Client ID**, **Client Secret**, or OAuth 2.0 Access Token in place of the four OAuth 1.0 values above. Treat every credential as a password and never share it in screenshots or support messages.
 {% endhint %}
-
-For a detailed credential guide, see How to Get X Credentials.
 
 ### 2. Open Publish
 
