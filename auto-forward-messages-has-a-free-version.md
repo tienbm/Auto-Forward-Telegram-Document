@@ -6,7 +6,7 @@ Once your Auto Forward Telegram period expires, the free package will become ava
 
 <figure><img src=".gitbook/assets/image (179).png" alt=""><figcaption><p>Example about show option Free Plan</p></figcaption></figure>
 
-With [@Auto\_Forward\_Messages\_Bot](https://t.me/Auto_Forward_Messages_Bot) you can use it for **free** or **pay** if you want.
+With [@AutoForwardNew\_Bot](https://t.me/AutoForwardNew_Bot) you can use it for **free** or **pay** if you want.
 
 Here are the features available in the **Free Package**:
 

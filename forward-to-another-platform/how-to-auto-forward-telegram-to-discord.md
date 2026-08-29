@@ -4,212 +4,338 @@ icon: discord
 
 # How to Auto Forward Telegram to Discord
 
-### Overview
+AutoForward can publish new Telegram messages to one or more Discord text channels through a Discord bot. Set up the bot once, connect it to AutoForward, choose your Telegram sources and Discord channel IDs, then create a **Publish Task**.
 
-Discord Publisher automatically forwards content from Telegram to Discord.
+The current AutoForward Discord flow uses a **Discord Bot** and **Channel ID**. It does not use a Discord webhook.
 
-Set it up once. The system monitors a Telegram source and sends content to Discord.
+### What you need
 
-This feature is useful when you want to:
+Before you begin, prepare:
 
-* Push news, product updates, or community alerts from Telegram to Discord
-* Automate operations when your team uses Telegram as the main content source
-* Reduce repetitive manual work across community channels
+* An AutoForward account that is signed in and connected to Telegram.
+* Access to the Telegram channel, group, or chat that you want to monitor.
+* An active **External Publish** addon.
+* Permission to create an application in the [Discord Developer Portal](https://discord.com/developers/applications).
+* A Discord server and target text channel where the bot can view and send messages.
+* A Discord Bot Token in the format required by AutoForward: `Bot YOUR_DISCORD_BOT_TOKEN`.
 
-<figure><img src="../.gitbook/assets/image (258).png" alt="" width="424"><figcaption></figcaption></figure>
+### How it works
 
-***
+```
+Telegram source(s) → AutoForward Publish Task → Discord Bot → Discord channel(s)
+```
 
-### Where is this feature?
+Discord Publish:
 
-You can open it from:
+* Publishes **new messages** after the task is created.
+* Can monitor one or more selected Telegram sources.
+* Can publish the same message to one or more Discord channels.
+* Requires the bot to be a member of the target server and able to post in each channel.
+* Does not automatically repost Telegram messages that existed before the task was created.
 
-1. Go to **Home**
-2. Tap **Publish**
-3. You will see the **Publish Task** area
+### 1. Create a Discord application and bot
 
-This area includes four main parts:
+1. Open the [Discord Developer Portal](https://discord.com/developers/applications) and sign in.
+2. Select **New Application**.
+3. Enter an application name, then select **Create**.
+4. Open the **Bot** page in the application settings. If the application does not have a bot user yet, select **Add Bot** and confirm.
+5. In the token section, select **Reset Token** to generate a new bot token, then select **Copy**.
+6. Store the token in a secure password manager. You will need it in the next step.
 
-* **Publish List**: shows all publish tasks you have created
-* **Platform Accounts**: manages Discord accounts used for publishing
-* **Create Publish Task**: creates a publishing flow from Telegram to Discord
-* **Publish Detail**: monitors task status, edits configuration, and starts or stops tasks
+AutoForward expects the token with the `Bot` prefix, including the space:
 
-***
+```
+Bot YOUR_DISCORD_BOT_TOKEN
+```
 
-### What is it used for?
+Do not add quotes or use the Application ID, Public Key, Client Secret, or another Discord value in the **Discord Bot Token** field.
 
-Discord Publisher uses Telegram as your **content source**. It distributes that content to your Discord community automatically.
+For a focused token walkthrough, see How to Get a Discord Bot Token.
 
-This is useful when you want to:
 
-* Send Telegram announcements into a Discord server
-* Automatically sync content between Telegram and your Discord community
-* Publish the same content to one or multiple Discord channels through a connected bot account
 
-***
+{% hint style="info" %}
+🖼️ **IMAGE BOX 01 — Discord application and bot token**
 
-### Main features
+Show the Discord Developer Portal application with the **Bot** page and token action visible. Use a test application or fully redact the bot token, Application ID, Public Key, client information, server names, and account details. Never show a real token.
+{% endhint %}
 
-#### 1. Platform account management
+{% hint style="warning" %}
+Treat the Discord Bot Token like a password. If it is exposed, select **Reset Token**, copy the new token, and update the Discord account in AutoForward immediately.
+{% endhint %}
 
-You can add and manage separate accounts used for publishing.
+### 2. Invite the bot to your Discord server
 
-**Discord Account**
+The bot must be installed in the server before AutoForward can publish to its channels.
 
-To connect Discord, you need:
+1. In the Discord Developer Portal, open the application's **Installation** page. If your portal uses the older layout, open **OAuth2 → URL Generator** instead.
+2. Create a server installation link with the `bot` scope.
+3.  Request at least these bot permissions:
 
-* Discord Bot Token
+    * **View Channels**
+    * **Send Messages**
 
-After adding an account, you can:
+    If you want to forward media or use rich links, also request **Embed Links** and **Attach Files**.
+4. Copy the generated installation URL and open it in your browser.
+5. Choose the target server and authorize the bot. You may need server permission to add bots.
+6. Open the target channel in Discord and confirm that the bot can view and send messages there. Channel-specific permission overrides can remove access even when the bot has server-level permissions.
 
-* Verify the connection
-* Edit credentials
-* Delete accounts you no longer use
+{% hint style="info" %}
+🖼️ **IMAGE BOX 02 — Install the bot with channel permissions**
 
-Related documents:
+Show the Discord installation or OAuth2 permission screen with the `bot` scope and **View Channels** / **Send Messages** selected. Use a test server and redact the installation URL, server names, user names, application identifiers, and any private data.
+{% endhint %}
 
-* [How to get a Discord Bot Token](how-to-get-a-discord-bot-token.md)
+### 3. Get the Discord Channel ID
 
-***
+AutoForward uses the numeric **Channel ID**, not the channel name, invite link, or a message link.
 
-#### 2. Create a Publish Task from Telegram
+1. Enable **Developer Mode** in Discord:
+   * **Desktop**: open **User Settings → Advanced**, then enable **Developer Mode**.
+   * **Mobile**: open your avatar, select the gear icon, open **Advanced**, then enable **Developer Mode**.
+2. In the server, right-click the target channel on desktop, or press and hold it on mobile.
+3. Select **Copy Channel ID**.
+4. Keep the copied ID ready for the AutoForward task. Repeat these steps for every channel that should receive the messages.
 
-Each Publish Task is its own publishing configuration.
+See Discord's [official instructions for finding a Channel ID](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID) if you need help locating the option.
 
-When creating a task, you can define:
+{% hint style="info" %}
+🖼️ **IMAGE BOX 03 — Enable Developer Mode and copy Channel ID**
 
-* A **task name** for easier management
-* A **Telegram source** such as a channel or group to monitor
-* A connected **Discord account**
-* One or more destination **Channel IDs**
+Show **User Settings → Advanced → Developer Mode** and the channel menu with **Copy Channel ID**. Use a test server or redact the server name, channel name, copied numeric ID, usernames, and other private information.
+{% endhint %}
 
-The same content can be published to multiple Discord channels at once.
+### 4. Connect the Discord bot to AutoForward
 
-***
+1. Open AutoForward and go to **Home**.
+2. Select **Publish**.
+3. On the **Publish Tasks** page, select **Manage Accounts** to open **Platform Accounts**.
+4. Select **Add Account**.
+5. Under **Select Platform**, choose **Discord**.
+6. Enter an **Account Name**, such as `Community Discord Bot`.
+7. In **Discord Bot Token**, paste the token with the required `Bot` prefix.
+8. Select **Save**.
 
-#### 3. Track Telegram changes
+AutoForward verifies the bot connection after saving. The account is ready when its status shows **Connected**.
 
-A Publish Task does not only process new messages. It also supports options related to changes from the Telegram source:
+If the account is not connected, open its actions and select **Verify Connection** after checking the token format and bot installation. Only a connected Discord account can be selected in a Publish Task.
 
-* **Include edited messages**
-* **Include deleted messages**
+You can also add the bot from the task wizard by selecting **Add connection** on the **Connection** step.
 
-This is useful when you want the destination platform to stay aligned with the latest state of the original Telegram content.
+{% hint style="info" %}
+🖼️ **IMAGE BOX 04 — Add a Discord account in AutoForward**
 
-***
+Show **Platform Accounts → Add Account** with **Select Platform** set to **Discord**, the **Account Name** field, and the **Discord Bot Token** field. Use a fake token such as `Bot YOUR_DISCORD_BOT_TOKEN` or fully redact the field. Do not show a real token, account identifier, or private server details.
+{% endhint %}
 
-#### 4. Customize content before delivery
+### 5. Create a Discord Publish Task
 
-Before content is sent to Discord, you can configure:
+Return to **Publish Tasks** and select **Create Publish Task**. AutoForward opens a four-step wizard:
 
-* **Header**: adds text at the beginning of the post
-* **Footer**: adds text at the end of the post
+1. **Provider**
+2. **Connection**
+3. **Source and recipient**
+4. **Review**
 
-Examples:
+#### Step 1: Choose Discord as the provider
 
-* Add a source label at the top of each post
-* Insert a follow reminder at the bottom
-* Standardize formatting before sending content to another platform
+1. On the **Provider** step, select **Discord**.
+2. Select **Next**.
 
-***
+{% hint style="info" %}
+🖼️ **IMAGE BOX 05 — Select Discord as the provider**
 
-#### 5. Schedule publishing
+Show the wizard progress with **Provider**, **Connection**, **Source and recipient**, and **Review**, with the **Discord** provider selected. Use test account data only.
+{% endhint %}
 
-You can use scheduling to control when content is published.
+#### Step 2: Choose the Discord connection
 
-This is useful when you want to:
+1. On the **Connection** step, select a Discord account with the **Connected** status.
+2. If no account is available, select **Add connection**, create the Discord account, and save it.
+3. After the account is connected, select **Next**.
 
-* Avoid publishing immediately when a Telegram message arrives
-* Run publishing on a specific operational schedule
-* Re-post content according to the task's schedule settings
+If the account shows **Verify connection** or is not listed, return to **Platform Accounts**, verify the bot, and refresh the connection list.
 
-In the current app flow, this is opened through **Auto Post Schedule** in the create form or in Publish Detail.
+{% hint style="info" %}
+🖼️ **IMAGE BOX 06 — Select a connected Discord account**
 
-***
+Show the **Connection** step with a Discord account selected and the **Connected** status visible. Use a test account name and do not show a real bot username, server name, or token.
+{% endhint %}
 
-#### 6. Delivery and error handling options
+#### Step 3: Select Telegram sources and Discord channels
 
-To make publishing more stable, the task supports a few delivery-related options:
+On **Source and recipient**:
 
-* **Retry on rate limit**
-* **Skip on error so the task can continue running**
+**Select Telegram sources**
 
-These settings are especially useful if you publish frequently or operate multiple publish tasks at the same time.
+1. Open the Telegram source selector.
+2. Select one or more Telegram channels, groups, or chats.
+3. Confirm that all required sources are selected.
 
-***
+**Add Discord destination channels**
 
-#### 7. Task status management
+1. In **Discord Options**, find **Channel #1**.
+2. Paste the numeric value into **Channel ID**.
+3. To publish to another Discord channel, select **Add Discord Channel** and enter its Channel ID.
+4. Repeat until every target channel is listed.
 
-After a task is created, you can open its detail screen to:
+AutoForward checks each Channel ID before the task can be saved. The bot must be able to access and send messages to every channel you add.
 
-* View task status
-* **Start Publish**
-* **Stop Publish**
-* Edit the task
-* Delete the task
+If you need to customize how source changes are handled, open **Advanced Settings**. Depending on your task configuration, you can configure **Edit**, **Delete**, **Add Header**, **Add Footer**, **Auto Post Scheduler**, **Retry on Rate Limit**, and **Skip on Error**.
 
-This gives you direct control over each publishing flow based on your operational needs.
+{% hint style="info" %}
+🖼️ **IMAGE BOX 07 — Add Discord Channel IDs**
 
-***
+Show the **Source and recipient** step with one or more Telegram sources selected, **Discord Options**, **Channel ID**, and **Add Discord Channel** visible. Use fake or redacted Channel IDs and test source names; do not show private server details.
+{% endhint %}
 
-### Quick start flow
+#### Step 4: Review and create the task
 
-If you want to start quickly, follow this order:
+On the **Review** step, check:
 
-1. Open **Home → Publish**
-2. Go to **Platform Accounts**
-3. Add a **Discord** account
-4. Verify the account connection
-5. Create a new **Publish Task**
-6. Select the Telegram source
-7. Select the destination account
-8. Enter one or more **Channel IDs**
-9. Configure Header, Footer, or scheduling if needed
-10. Save the task and tap **Start Publish**
+* The **Task Name**.
+* The provider: **Discord**.
+* The selected **Connection** and its **Connected** status.
+* The Telegram source count and names.
+* Every Discord destination **Channel ID**.
+* The **New messages only** rule.
 
-***
+Select **Create Publish Task** when the configuration is correct.
 
-### When should you use this feature?
+{% hint style="info" %}
+🖼️ **IMAGE BOX 08 — Review the Discord Publish Task**
 
-#### Use case 1: Sync Telegram with your Discord community
+Show the **Review** step with a sample task name, Discord provider, connected account, Telegram source summary, and multiple destination Channel IDs. Use test values or redact all account, server, channel, and source information.
+{% endhint %}
 
-If you manage both Telegram and Discord communities, announcements from Telegram can automatically appear in one or more Discord channels so Discord users do not miss important updates.
+### After setup: test the forwarding flow
 
-#### Use case 2: Separate editorial source and distribution channel
+After the task is created, AutoForward opens the **Publish Detail** screen.
 
-Your content team can work in Telegram. Publish Tasks then distribute content to Discord automatically.
+1. Confirm that the task status is **Running**.
+2. Send a new test message to one of the selected Telegram sources.
+3. Check the configured Discord channel for the forwarded message.
+4. If the task is **Stopped**, select **Start Publish**, wait for the status to change to **Running**, and send a new test message.
 
-***
+The task starts with **new messages only**. Telegram messages that existed before the task was created are not automatically reposted.
 
-### Important notes
+{% hint style="info" %}
+🖼️ **IMAGE BOX 09 — Discord Publish Task running**
 
-* This feature requires the **External Publish** addon to be active
-* Discord accounts should be **verified successfully** before using them in a task
-* For Discord, the bot must have access to the target channel and permission to send messages
-* If you edit or delete a platform account, tasks using that account may stop working
-* Use clear task names if you manage multiple publishing flows
+Show **Publish Detail** with the task in the **Running** state and the Discord destination visible. Use a test task, source, account, and Channel ID; do not show bot tokens, private server information, or message content that should not be published.
+{% endhint %}
 
-***
+### Manage your Discord Publish Task
 
-### Recommended usage tips
+#### Start or stop the task
 
-* Use **one task for one clear purpose**, for example: Telegram Announcements → Discord
-* Verify account connections before enabling a production task
-* For Discord, test on a secondary channel before using the main channel
-* If you want consistent formatting, configure Header and Footer early
-* If you run multiple publish flows, use a consistent task naming pattern for easier management
+* **Start Publish** starts a stopped task.
+* **Stop Publish** pauses the task and prevents new messages from being sent until it is started again.
 
-***
+#### Edit the task
 
-### Summary
+Open the task and select **Edit Publish Task**. You can update the task name, Telegram sources, Discord Channel IDs, and supported task options. Save the task after making changes.
 
-Discord Publisher turns Telegram into a central publishing source for Discord.
+#### Add or remove a Discord channel
 
-This feature helps you:
+Edit the task from **Publish Detail**, then update **Discord Options**:
 
-* Sync announcements into Discord communities
-* Automate Telegram-to-Discord delivery
-* Reduce manual work and improve operational consistency
+* Select **Add Discord Channel** to add another destination.
+* Remove an extra channel from the channel list.
+* Save the task and wait for AutoForward to validate every destination again.
 
-When configured properly, it keeps your communities aligned without extra manual work.
+#### Update or reconnect the bot
+
+If the token is reset or the bot loses access:
+
+1. Open **Platform Accounts** from **Publish**.
+2. Open the Discord account and select **Edit Account**.
+3. Replace the value in **Discord Bot Token** with the current `Bot YOUR_DISCORD_BOT_TOKEN` value.
+4. Select **Save**, then select **Verify Connection** if needed.
+5. Return to the task and select **Start Publish** if the task is stopped.
+
+#### Delete the task or account
+
+* Deleting a Publish Task removes only its AutoForward configuration. It does not delete the Discord bot, server, or channel.
+* Deleting the Discord account removes the saved connection from AutoForward. Publish Tasks using that account may stop working.
+* Resetting a Discord token invalidates the old token. Update the saved account before verifying or publishing again.
+
+### Common statuses
+
+| Status        | Meaning                                                           | What to do                                                                        |
+| ------------- | ----------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| **Connected** | AutoForward verified the Discord Bot Token.                       | Select this account in the task wizard.                                           |
+| **Pending**   | The account is waiting for verification to finish.                | Refresh the account list, then verify the connection again if needed.             |
+| **Invalid**   | The token is incorrect, expired, or no longer accepted.           | Reset the token in Discord, update AutoForward, and select **Verify Connection**. |
+| **Expired**   | The saved connection is no longer usable.                         | Edit the account with a current token and verify it again.                        |
+| **Running**   | The Publish Task is monitoring Telegram and can publish messages. | Send a new test message to a selected source.                                     |
+| **Stopped**   | The Publish Task is paused.                                       | Select **Start Publish** to resume it.                                            |
+
+### Troubleshooting
+
+#### AutoForward cannot verify the Discord account
+
+Check the following:
+
+1. The value starts with `Bot` , including exactly one space after `Bot`.
+2. The token was copied from the correct Discord application.
+3. The token has not been reset since it was added to AutoForward.
+4. You pasted the bot token, not the Application ID, Public Key, or Client Secret.
+5. Save the account again, then select **Verify Connection**.
+
+#### The account is connected but no message appears in Discord
+
+1. Confirm that the bot was added to the correct server.
+2. Check that the bot can **View Channels** and **Send Messages** in the target channel.
+3. Confirm that the Channel ID belongs to the intended channel and was copied after enabling **Developer Mode**.
+4. Confirm that the Publish Task status is **Running**.
+5. Send a new Telegram message after the task was created. Older messages are not automatically reposted.
+6. If you added multiple channels, check each channel's permissions separately.
+
+#### AutoForward rejects a Channel ID
+
+* Paste the numeric Channel ID, not the channel name, invite URL, or message link.
+* Confirm that the bot can access the channel.
+* Remove extra spaces or other characters.
+* If the channel is private, ask a server administrator to add the bot and grant channel access.
+
+#### The bot can access the server but not the target channel
+
+Discord channel permission overrides can block a bot even when it has server-level permissions. Open the target channel's permissions and allow the bot role to view the channel and send messages.
+
+#### Media or rich links are not delivered
+
+Confirm that the bot has the permissions required by the content, such as **Embed Links** and **Attach Files**. Test plain text first to separate a permission problem from a content-specific problem.
+
+#### The task stopped after an error
+
+Open **Publish Detail**, resolve the bot token or channel permission problem, then select **Start Publish**. Send a new test message after the task returns to **Running**.
+
+### Frequently asked questions
+
+#### Can one Publish Task send to multiple Discord channels?
+
+Yes. Add each destination with **Add Discord Channel** and enter its numeric **Channel ID**. AutoForward validates every channel before saving the task.
+
+#### Can I use a Discord webhook instead of a bot?
+
+Not in the current AutoForward Discord flow. Connect a Discord Bot Token and use one or more Channel IDs.
+
+#### Does AutoForward repost old Telegram messages after setup?
+
+No. The Discord Publish flow starts with new Telegram messages after the task is created.
+
+#### Does deleting a Publish Task delete my Discord bot?
+
+No. Deleting a task removes only the AutoForward task configuration. The Discord application, bot, server, and channels remain unchanged.
+
+#### What happens if I reset the bot token?
+
+The old token stops working. Copy the new token, update the Discord account in AutoForward, save it, and verify the connection again.
+
+### Security reminders
+
+* Treat the Discord Bot Token like a password.
+* Never share it in screenshots, chats, support tickets, or public repositories.
+* Use fake or fully redacted values in documentation and tutorial screenshots.
+* Reset the token immediately if you think it has been exposed.
