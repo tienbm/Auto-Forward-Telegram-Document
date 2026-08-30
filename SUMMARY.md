@@ -94,6 +94,7 @@
 
 ## Forward To Another Platform
 
+* [How to Auto Forward Telegram to WhatsApp](forward-to-another-platform/how-to-auto-forward-telegram-to-whatsapp.md)
 * [How to Auto Forward Telegram to Email](forward-to-another-platform/how-to-auto-forward-telegram-to-email.md)
 * [How to Auto Forward Telegram to X](forward-to-another-platform/how-to-auto-forward-telegram-to-x.md)
 * [How to Auto Forward Telegram to Discord](forward-to-another-platform/how-to-auto-forward-telegram-to-discord.md)

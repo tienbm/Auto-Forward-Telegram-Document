@@ -42,23 +42,11 @@ Discord Publish:
 5. In the token section, select **Reset Token** to generate a new bot token, then select **Copy**.
 6. Store the token in a secure password manager. You will need it in the next step.
 
-AutoForward expects the token with the `Bot` prefix, including the space:
-
-```
-Bot YOUR_DISCORD_BOT_TOKEN
-```
-
 Do not add quotes or use the Application ID, Public Key, Client Secret, or another Discord value in the **Discord Bot Token** field.
 
 For a focused token walkthrough, see How to Get a Discord Bot Token.
 
-
-
-{% hint style="info" %}
-🖼️ **IMAGE BOX 01 — Discord application and bot token**
-
-Show the Discord Developer Portal application with the **Bot** page and token action visible. Use a test application or fully redact the bot token, Application ID, Public Key, client information, server names, and account details. Never show a real token.
-{% endhint %}
+<figure><img src="../.gitbook/assets/image (315).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 Treat the Discord Bot Token like a password. If it is exposed, select **Reset Token**, copy the new token, and update the Discord account in AutoForward immediately.
@@ -80,11 +68,7 @@ The bot must be installed in the server before AutoForward can publish to its ch
 5. Choose the target server and authorize the bot. You may need server permission to add bots.
 6. Open the target channel in Discord and confirm that the bot can view and send messages there. Channel-specific permission overrides can remove access even when the bot has server-level permissions.
 
-{% hint style="info" %}
-🖼️ **IMAGE BOX 02 — Install the bot with channel permissions**
-
-Show the Discord installation or OAuth2 permission screen with the `bot` scope and **View Channels** / **Send Messages** selected. Use a test server and redact the installation URL, server names, user names, application identifiers, and any private data.
-{% endhint %}
+<figure><img src="../.gitbook/assets/image (316).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. Get the Discord Channel ID
 
@@ -99,11 +83,9 @@ AutoForward uses the numeric **Channel ID**, not the channel name, invite link, 
 
 See Discord's [official instructions for finding a Channel ID](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID) if you need help locating the option.
 
-{% hint style="info" %}
-🖼️ **IMAGE BOX 03 — Enable Developer Mode and copy Channel ID**
+<figure><img src="../.gitbook/assets/image (317).png" alt=""><figcaption></figcaption></figure>
 
-Show **User Settings → Advanced → Developer Mode** and the channel menu with **Copy Channel ID**. Use a test server or redact the server name, channel name, copied numeric ID, usernames, and other private information.
-{% endhint %}
+<figure><img src="../.gitbook/assets/image (318).png" alt=""><figcaption></figcaption></figure>
 
 ### 4. Connect the Discord bot to AutoForward
 
@@ -122,11 +104,7 @@ If the account is not connected, open its actions and select **Verify Connection
 
 You can also add the bot from the task wizard by selecting **Add connection** on the **Connection** step.
 
-{% hint style="info" %}
-🖼️ **IMAGE BOX 04 — Add a Discord account in AutoForward**
-
-Show **Platform Accounts → Add Account** with **Select Platform** set to **Discord**, the **Account Name** field, and the **Discord Bot Token** field. Use a fake token such as `Bot YOUR_DISCORD_BOT_TOKEN` or fully redact the field. Do not show a real token, account identifier, or private server details.
-{% endhint %}
+<figure><img src="../.gitbook/assets/image (320).png" alt=""><figcaption></figcaption></figure>
 
 ### 5. Create a Discord Publish Task
 
@@ -142,11 +120,7 @@ Return to **Publish Tasks** and select **Create Publish Task**. AutoForward open
 1. On the **Provider** step, select **Discord**.
 2. Select **Next**.
 
-{% hint style="info" %}
-🖼️ **IMAGE BOX 05 — Select Discord as the provider**
-
-Show the wizard progress with **Provider**, **Connection**, **Source and recipient**, and **Review**, with the **Discord** provider selected. Use test account data only.
-{% endhint %}
+<figure><img src="../.gitbook/assets/image (322).png" alt=""><figcaption></figcaption></figure>
 
 #### Step 2: Choose the Discord connection
 
@@ -156,11 +130,7 @@ Show the wizard progress with **Provider**, **Connection**, **Source and recipie
 
 If the account shows **Verify connection** or is not listed, return to **Platform Accounts**, verify the bot, and refresh the connection list.
 
-{% hint style="info" %}
-🖼️ **IMAGE BOX 06 — Select a connected Discord account**
-
-Show the **Connection** step with a Discord account selected and the **Connected** status visible. Use a test account name and do not show a real bot username, server name, or token.
-{% endhint %}
+<figure><img src="../.gitbook/assets/image (323).png" alt=""><figcaption></figcaption></figure>
 
 #### Step 3: Select Telegram sources and Discord channels
 
@@ -183,11 +153,7 @@ AutoForward checks each Channel ID before the task can be saved. The bot must be
 
 If you need to customize how source changes are handled, open **Advanced Settings**. Depending on your task configuration, you can configure **Edit**, **Delete**, **Add Header**, **Add Footer**, **Auto Post Scheduler**, **Retry on Rate Limit**, and **Skip on Error**.
 
-{% hint style="info" %}
-🖼️ **IMAGE BOX 07 — Add Discord Channel IDs**
-
-Show the **Source and recipient** step with one or more Telegram sources selected, **Discord Options**, **Channel ID**, and **Add Discord Channel** visible. Use fake or redacted Channel IDs and test source names; do not show private server details.
-{% endhint %}
+<figure><img src="../.gitbook/assets/image (324).png" alt=""><figcaption></figcaption></figure>
 
 #### Step 4: Review and create the task
 
@@ -202,11 +168,7 @@ On the **Review** step, check:
 
 Select **Create Publish Task** when the configuration is correct.
 
-{% hint style="info" %}
-🖼️ **IMAGE BOX 08 — Review the Discord Publish Task**
-
-Show the **Review** step with a sample task name, Discord provider, connected account, Telegram source summary, and multiple destination Channel IDs. Use test values or redact all account, server, channel, and source information.
-{% endhint %}
+<figure><img src="../.gitbook/assets/image (321).png" alt=""><figcaption></figcaption></figure>
 
 ### After setup: test the forwarding flow
 
