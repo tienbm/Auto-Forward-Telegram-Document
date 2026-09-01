@@ -301,3 +301,69 @@ The old token stops working. Copy the new token, update the Discord account in A
 * Never share it in screenshots, chats, support tickets, or public repositories.
 * Use fake or fully redacted values in documentation and tutorial screenshots.
 * Reset the token immediately if you think it has been exposed.
+
+***
+
+### Discord Role Mention in AutoForward
+
+The Discord Role Mention feature allows AutoForward to notify a specific Discord role whenever a message is forwarded to a Discord channel. This helps ensure that the right team members receive an immediate notification.
+
+A Discord role mention uses the following format:
+
+```
+<@&ROLE_ID>
+```
+
+Example:
+
+```
+<@&123456789012345678>
+```
+
+### How to Set Up a Role Mention
+
+#### 1. Copy the Discord Role ID
+
+1. Open Discord and go to the required server.
+2. Open **User Settings → Advanced**.
+3. Enable **Developer Mode**.
+
+<figure><img src="../.gitbook/assets/image (336).png" alt=""><figcaption></figcaption></figure>
+
+1. Open **Server Settings → Roles**.
+2. Right-click the role you want to mention.
+3. Select **Copy Role ID**.
+
+<figure><img src="../.gitbook/assets/image (337).png" alt=""><figcaption></figcaption></figure>
+
+#### 2. Add the Role Mention to AutoForward
+
+1. Open the AutoForward app.
+2. Create a new forwarding task or edit an existing task.
+3. Select the source chat and Discord destination.
+4. Open the Discord notification or message settings.
+5. If there is a **Role ID** or **Mention Role** field, paste the copied numeric Role ID.
+6.  If AutoForward uses a message template, enter the mention in this format:
+
+    ```
+    <@&ROLE_ID>
+    ```
+7. Replace `ROLE_ID` with the actual Discord Role ID or add to Header/Footer.
+
+<figure><img src="../.gitbook/assets/image (338).png" alt=""><figcaption></figcaption></figure>
+
+1. Save the forwarding task.
+2. Send a test message and confirm that the role is mentioned in Discord.
+
+<figure><img src="../.gitbook/assets/image (339).png" alt=""><figcaption></figcaption></figure>
+
+### Important Requirements
+
+* The Discord bot or webhook must have access to the target channel.
+* The role must be mentionable, or the bot must have permission to mention roles.
+* Enter the Role ID, not the role name.
+* Do not include extra spaces or quotation marks in the mention format.
+
+### Troubleshooting
+
+If the role appears as plain text, check that the Role ID is correct and that the format is exactly `<@&ROLE_ID>`. If members do not receive notifications, verify the role’s mention permissions and their Discord notification settings.
