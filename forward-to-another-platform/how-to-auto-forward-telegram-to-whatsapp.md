@@ -16,6 +16,8 @@ AutoForward can send new messages from one or more Telegram sources to a WhatsAp
 
 This guide uses AutoForward's current QR-based WhatsApp connection. You do not need to enter a Phone number ID or Access token in this connection flow.
 
+{% embed url="https://www.youtube.com/watch?v=G6fAYRLG1G8" %}
+
 ### What you need
 
 Before you begin, prepare:
