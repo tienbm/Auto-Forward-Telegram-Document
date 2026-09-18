@@ -4,7 +4,7 @@ description: >-
   referrals, promotional campaigns, and other reward opportunities.
 ---
 
-# 🎁 Reward Center
+# 🎁 Earn Free Credits to Upgrade
 
 Collected Reward Credits can be used toward eligible purchases, subscriptions, addon activations, and future promotional programs within Auto Forward Telegram.
 
@@ -32,7 +32,7 @@ The Reward Center dashboard will display:
 
 ### Reward Credits
 
-<figure><img src="../.gitbook/assets/image (260).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (342).png" alt=""><figcaption></figcaption></figure>
 
 Reward Credits are bonus credits earned through participation in reward programs.
 
@@ -174,6 +174,8 @@ Available content may change over time and can include:
 * Partner offers
 
 Check regularly for new earning opportunities.
+
+
 
 ### Frequently Asked Questions
 

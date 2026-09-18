@@ -38,9 +38,9 @@ Welcome to our exciting affiliate program, where you have the fantastic opportun
 
 🌟 Conditions to Receive Credits: To qualify for the credits, please ensure the following:&#x20;
 
-1️⃣ The users you invite must be new to [@Auto\_Forward\_Messages\_Bot](https://t.me/Auto_Forward_Messages_Bot).&#x20;
+1️⃣ The users you invite must be new to [https://t.me/AutoForwardNew\_Bot](https://t.me/AutoForwardNew_Bot)
 
-2️⃣ The phone number used by the invited users must not have been previously registered with [@Auto\_Forward\_Messages\_Bot](https://t.me/Auto_Forward_Messages_Bot).
+2️⃣ The phone number used by the invited users must not have been previously registered with [https://t.me/AutoForwardNew\_Bot](https://t.me/AutoForwardNew_Bot)
 
 💡 Unlock Your Earning Potential: The more friends you invite, the higher your earnings potential becomes! Share your Affiliate Link with your network, on social media, and even on your website or blog. The possibilities are limitless.
 
