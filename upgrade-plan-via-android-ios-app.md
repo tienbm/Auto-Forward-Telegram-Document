@@ -10,7 +10,7 @@
 ✅ **Web** → [web.autoforwardtelegram.com](https://web.autoforwardtelegram.com/)
 {% endhint %}
 
-To get info login please to [bot autoforward on telegram](https://t.me/Auto_Forward_Messages_Bot) and select Settings or typing **/settings** then copy **UserID and Token login**
+To get info login please to [https://t.me/AutoForwardNew\_Bot](https://t.me/Auto_Forward_Messages_Bot) and select Settings or typing **/settings** then copy **UserID and Token login**
 
 <figure><img src=".gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 

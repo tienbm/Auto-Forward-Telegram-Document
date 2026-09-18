@@ -16,7 +16,7 @@ Before upgrading your package, make sure you have:
 #### Step 1: Access the AutoForward Bot
 
 1. Open your Telegram app.
-2. Start a conversation with the [Auto Forward Messages](https://t.me/Auto_Forward_Messages_Bot).
+2. Start a conversation with the [Auto Forward Messages](https://t.me/AutoForwardNew_Bot).
 
 #### Step 2: Check Current Package Details
 
