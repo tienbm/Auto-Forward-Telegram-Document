@@ -27,6 +27,7 @@
 * [Keyword Confirmation](addons/keyword-confirmation.md)
 * [Smart Image Crop](addons/smart-image-crop.md)
 * [Auto Clone Button](addons/auto-clone-button.md)
+* [Sender Bot Large Files 2GB](addons/sender-bot-large-files-2gb.md)
 * [AlphaGardeners Extract](addons/alphagardeners-extract.md)
 * [Bypass Anti-Repasse Bot](addons/bypass-anti-repasse-bot.md)
 * [Telegram Spammer](addons/telegram-spammer.md)
