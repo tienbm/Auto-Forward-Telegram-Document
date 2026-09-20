@@ -19,8 +19,6 @@ Instead of sending comments as unrelated messages, the addon preserves their rel
 
 This makes it possible to synchronize both **channel content and the discussions around it**.
 
-<figure><img src="../.gitbook/assets/image (343).png" alt=""><figcaption></figcaption></figure>
-
 ***
 
 ### How Telegram Channel Comments Work
@@ -38,6 +36,8 @@ Your Telegram setup needs to follow this structure:
 When a Discussion Group is linked to a channel, Telegram creates a discussion thread for channel posts. Messages inside these threads appear as comments underneath the corresponding channel post.
 
 Therefore, a Discussion Group must first be linked to your source channel before the addon can detect channel comments.
+
+<figure><img src="../.gitbook/assets/image (343).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
