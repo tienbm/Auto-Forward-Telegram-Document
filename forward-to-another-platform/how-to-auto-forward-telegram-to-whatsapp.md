@@ -291,11 +291,11 @@ No. WhatsApp Publish starts with new messages after the task is created.
 
 #### Are photos, videos, and files forwarded?
 
-No. WhatsApp Publish sends text or a media caption only. Telegram binary media files are not sent.
+Yes
 
 #### Do Telegram edits and deletes update WhatsApp?
 
-No. The WhatsApp delivery policy processes new messages only and does not mirror source edits or deletes.
+Yes
 
 #### Do I need a Phone number ID or Access token?
 
