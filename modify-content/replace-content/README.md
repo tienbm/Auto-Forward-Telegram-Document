@@ -35,28 +35,28 @@ This feature will not work if you enable "**Show Header Forwarder**" in task lis
 
 #### **On Mobile App**
 
-1. Open the [Auto Forward mobile app](../mobile-app/how-to-download-app-for-mobile.md).
+1. Open the [Auto Forward mobile app](../../mobile-app/how-to-download-app-for-mobile.md).
 2. Go to the **Dashboard**.
 3. Tap on the **Replace** icon (highlighted below).
 
-<div align="left"><figure><img src="../.gitbook/assets/image (52).png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (52).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 **On Web Dashboard**
 
 1. Log in to the [Auto Forward Web](https://web.autoforwardtelegram.com/) Dashboard.
 2. In the left-hand menu under **Features**, click on **Replace**.
 
-<div align="left"><figure><img src="../.gitbook/assets/image (53).png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (53).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Next Tap on the **Add New** button (as shown in the image below):
 
-<div align="left"><figure><img src="../.gitbook/assets/image (43).png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (43).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 ## **2. Create Replace Rule**
 
 The **Create Replace** feature allows you to define rules to modify message content before forwarding. It supports various replace types, including **Basic**, **Regex**, and advanced options for removing or keeping specific lines.
 
-<figure><img src="../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -73,6 +73,8 @@ When creating a replace rule, you can choose a **Replace Type** from the dropdow
 | **Remove Lines By Line Number**          | Remove lines based on their line numbers.                                                            |
 | **Replace Power**                        | A powerful feature that combines multiple syntaxes and supports Regex to remove or replace keywords. |
 | **Keep The Line Containing The Keyword** | Only keep lines containing specific keywords.                                                        |
+| **Sticker → Text**                       | Replaces the source sticker with your text, including multiple lines.                                |
+| **Sticker → Sticker**                    | Replaces the source sticker with another sticker.                                                    |
 
 ***
 
@@ -138,7 +140,7 @@ Replace simple words or phrases with new content.
 
 **Steps to Use in App**:
 
-<figure><img src="../.gitbook/assets/image (202).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (202).png" alt=""><figcaption></figcaption></figure>
 
 1. Select **Basic** as the Replace Type.
 2. Enter:
@@ -159,7 +161,7 @@ Using **Regex Replace** requires a basic understanding of **Regular Expressions 
 
 ***
 
-<figure><img src="../.gitbook/assets/image (203).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (203).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -194,7 +196,7 @@ Replace Power allows you to add **multiple replacement rules**.&#x20;
 3. **Rule 3** (Simple Mode):
    * **Original Words** = `url:tag` → **Replace Words** = `customer`
 
-<figure><img src="../.gitbook/assets/image (56).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (56).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -393,7 +395,7 @@ The **Remove Lines Without Keywords** feature allows you to keep specific lines 
 
 #### **Example Scenario**
 
-<figure><img src="../.gitbook/assets/image (62).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (62).png" alt=""><figcaption></figcaption></figure>
 
 #### **Original Message**
 
@@ -453,7 +455,7 @@ The **Remove Lines by Keyword** feature allows you to **remove lines** from a me
 
 #### **Example Scenario**
 
-<figure><img src="../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
 
 #### **Original Message**
 
@@ -494,7 +496,7 @@ Take Profit  3 at 2026
 
 The **Remove Empty Lines** feature allows you to clean up messages by removing all blank or empty lines. This ensures your forwarded content is clean and well-formatted.
 
-<figure><img src="../.gitbook/assets/image (59).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (59).png" alt=""><figcaption></figcaption></figure>
 
 #### **Example Scenario**
 
@@ -541,7 +543,7 @@ The **Remove Lines By Line Number** feature allows you to specify which lines in
 
 In the **Replace Type** dropdown menu, select **Remove Lines By Line Number**.
 
-<figure><img src="../.gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
 
 **Configure the Rule**
 
@@ -599,7 +601,7 @@ The **Replace** feature allows you to apply or disable specific replacement rule
 1. From the **Dashboard**, select the **Replace** feature.
 2. You will see a list of all previously created **Replace rules**.
 
-<figure><img src="../.gitbook/assets/image (204).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (204).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -610,7 +612,7 @@ The **Replace** feature allows you to apply or disable specific replacement rule
 
     A **popup window** will appear, showing details of the selected Replace rule (as seen in the second image).
 
-<figure><img src="../.gitbook/assets/image (205).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (205).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -803,7 +805,7 @@ To replace them, you need to use their internal emoji ID.
 
 📸 Example:
 
-<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 **✅ Step 2: Copy the**&#x20;
 
@@ -842,12 +844,12 @@ In your task settings:
 
        **Example:**
 
-       <figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+       <figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
    * Text (\[REPLACED])
    * Leave empty to remove the icon entirely
 4. Next please complete the replace information and click **Save**
 
-<figure><img src="../.gitbook/assets/image (18).png" alt="Example"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (18).png" alt="Example"><figcaption></figcaption></figure>
 
 ### How to Detect & Remove Hidden Links, Tags, and Mentions in Forwarded Messages
 
@@ -869,7 +871,7 @@ To remove them safely, you need to inspect the message’s HTML content and set 
 
 📸 Example Response:
 
-<figure><img src="../.gitbook/assets/image (253).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (253).png" alt=""><figcaption></figcaption></figure>
 
 #### 📌 Example
 
@@ -899,7 +901,7 @@ But in reality, the word bichi is a clickable link, and @Zen\_call is a mention 
 * Original Words: @Zen\_call
 * New Words: EMPTY
 
-<figure><img src="../.gitbook/assets/image (254).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (254).png" alt=""><figcaption></figcaption></figure>
 
 **C. Change a Specific Hidden Link (e.g. bichi)**
 
@@ -931,7 +933,7 @@ But in reality, the word bichi is a clickable link, and @Zen\_call is a mention 
 
 * **New Words:** EMPTY
 
-<figure><img src="../.gitbook/assets/image (255).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (255).png" alt=""><figcaption></figcaption></figure>
 
 Next please complete the replace information and click **Save**
 

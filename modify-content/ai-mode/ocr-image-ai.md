@@ -24,7 +24,7 @@ The OCR Image AI feature allows AutoForward to automatically extract text from a
 
 3. **Select OCR Image AI**
 
-<figure><img src="../../.gitbook/assets/image (221).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (350).png" alt=""><figcaption></figcaption></figure>
 
 **4. Initial Screen (Feature Disabled)**
 
@@ -41,6 +41,12 @@ The OCR Image AI feature allows AutoForward to automatically extract text from a
 * When enabled, AutoForward will process incoming images through the selected model and extract text.
 
 > 💡 Note: Using AI may introduce slight delays in forwarding due to image processing time.
+
+#### 🔘 Read Text in Stickers with AI
+
+Sticker OCR lets a task read text from Telegram stickers and pass the recognized text into its content-processing flow. Use it when source stickers contain signals, announcements, or wording you want to process as text.
+
+Unlike Sticker Replace, OCR does not require an ID rule for each sticker. Results depend on the image content and the selected AI model’s recognition capabilities.
 
 ***
 
