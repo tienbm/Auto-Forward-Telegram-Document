@@ -324,7 +324,29 @@ The **Blacklist By User** feature allows you to block messages from specific use
 
 ***
 
-### **4. Apply/Disable Blacklist For a Task**
+### 4. Video and document media filters
+
+### Choose the right media type
+
+Blacklist media filters block Telegram videos by duration or size and Telegram documents by size. They are available for Forward and Clone connections on active Platinum and Trial Platinum plans. A matching blacklist rule blocks the message and takes priority over a whitelist match.
+
+Choose Video duration for Telegram video runtime (seconds or minutes), Video size for Telegram video file size, or Document size for files sent as Telegram documents, including videos sent as documents. Each rule has one condition using >, >=, <, <=, or = and a decimal value. Duration units are s or m; size units are KB, MB, or GB. Examples: ≥ 30s, > 10MB, and  > 100MB.
+
+#### How matching works
+
+A matching blacklist rule blocks the message even when a whitelist rule also matches. If the required video or document metadata is unavailable, the media rule does not match.
+
+Albums are forwarded as a whole only when every photo or video passes the filters. A blacklist match on any member blocks the entire album; albums are never split.<img src="../../.gitbook/assets/clipboard (4).png" alt="" data-size="line">
+
+<figure><img src="../../.gitbook/assets/clipboard (5).png" alt=""><figcaption></figcaption></figure>
+
+
+
+#### Create a media blacklist
+
+Go to Blacklist and select Add New. Choose the media filter type, enter a label, select an operator, and set a decimal value and unit. Check the rule preview, optionally select a Forward or Clone connection, then choose Create Blacklist. The media type stays fixed when editing; create a separate rule to use another type. You need an active Platinum or Trial Platinum plan to create or edit media filters.
+
+### **5. Apply/Disable Blacklist For a Task**
 
 #### **Steps**
 
@@ -341,7 +363,7 @@ The **Blacklist By User** feature allows you to block messages from specific use
 
 ***
 
-### **5. Tips for Using Blacklist**
+### **6. Tips for Using Blacklist**
 
 * Use **Basic** for simple word-based filtering.
 * Use **Regex** for complex patterns like URLs, mentions, or phrases.

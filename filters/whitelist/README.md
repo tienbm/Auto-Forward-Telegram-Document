@@ -199,6 +199,34 @@ If your pattern includes special characters (like ., +, or spaces), escape them 
 
 #### [**Checkout Example Scenarios**](faq.md)
 
+### 3. Video and document media filters
+
+Media filters let you whitelist Telegram videos by duration or size, and documents by size. They are available for Forward and Clone connections on active Platinum and Trial Platinum plans.
+
+#### Choose the right media type
+
+Choose Video duration, Video size, or Document size from the Filter type dropdown. Video duration checks the runtime of Telegram videos in seconds (s) or minutes (m). Video size checks Telegram video file size. Document size applies to files sent as Telegram documents, including videos sent as documents. Each media rule has one condition: >, >=, <, <=, or =, with a decimal value and the unit shown in the form. Examples: ≥ 30s, > 10MB, and > 100MB. Size filters use KB, MB, or GB.
+
+<figure><img src="../../.gitbook/assets/clipboard (1).png" alt=""><figcaption></figcaption></figure>
+
+
+
+#### How matching works
+
+Whitelist rules use OR: a message can pass when it matches any one whitelist rule. Separate rules such as ≥ 30s and <= 60s do not create a 30–60 second range. A matching blacklist rule takes priority.
+
+Video duration and video size rules apply only to Telegram videos. Document size applies only to files sent as Telegram documents. If the required media metadata is unavailable, the rule does not match.
+
+Albums are handled as a whole: every photo or video in an album must pass the filters for the album to be forwarded. The app does not split an album.
+
+<figure><img src="../../.gitbook/assets/clipboard (2).png" alt=""><figcaption></figcaption></figure>
+
+
+
+#### Create a media whitelist
+
+Go to Whitelist and select Add New. Choose Video duration, Video size, or Document size from Filter type, then enter a label and one operator, decimal value, and unit. Check the rule preview, select a Forward or Clone connection if you want to apply it immediately, and choose Create Whitelist. You can also link a saved rule from the whitelist list. The media type stays fixed when editing; create a new filter to use another type. Creating or editing media filters requires an active Platinum or Trial Platinum plan.
+
 ***
 
 ## **5.** Apply/Disable Replace For a Task
@@ -267,4 +295,3 @@ In the popup window, the following options are available:
 * Ensure only relevant content is forwarded.
 * Filter messages based on specific words, patterns, or trusted users.
 * Improve control and accuracy of message forwarding.
-
