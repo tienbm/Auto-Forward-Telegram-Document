@@ -49,6 +49,7 @@
 
 * [Replace Content](modify-content/replace-content/README.md)
   * [Sticker Replace — Replace a Sticker with Text or Another Sticker](modify-content/replace-content/sticker-replace-replace-a-sticker-with-text-or-another-sticker.md)
+  * [Replace photos by caption](modify-content/replace-content/replace-photos-by-caption.md)
 * [Setup Sender For Task](modify-content/setup-sender-for-task.md)
 * [AI Mode](modify-content/ai-mode/README.md)
   * [AI Custom Server](modify-content/ai-mode/ai-custom-server.md)
